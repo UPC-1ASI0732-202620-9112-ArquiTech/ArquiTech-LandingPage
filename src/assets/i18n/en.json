@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "home": "Home",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "header": {
+    "title1": "Clear Reports,",
+    "title2": "Quick Decisions"
+  },
+  "welcome": {
+    "title": "Welcome to the new era of digital construction!",
+    "description": "ArquiTech is your ally for making quick, accurate, and data-driven decisions from the construction site or the office."
+  },
+  "main": {
+    "title": "Better constructions with ArquiTech",
+    "description": "ArquiTech offers a modular platform that addresses the real needs of the field. From personnel registration to progress analysis, everything is designed to save you time, reduce errors, and make better decisions."
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "We are a team passionate about innovation in the construction sector. We were born to address an urgent need: digitizing operational processes on-site that were previously manual, slow, and prone to errors. At ArquiTech, we believe technology can empower supervisors, assistants, and managers, helping them take full control of their projects without complications. We are committed to providing a professional, secure, and efficient solution tailored to the pace of fieldwork."
+  },
+  "services": {
+    "title": "ArquiTech Modules",
+    "description": "ArquiTech offers a modular platform that addresses the real needs of the field. From personnel registration to progress analysis, everything is designed to save you time, reduce errors, and make better decisions.",
+    "attendance": "Attendance Control",
+    "materials": "Materials Management",
+    "reports": "Report Generation",
+    "contractors": "Contractors View",
+    "dashboard": "Management Dashboard"
+  },
+  "flexible_hours": {
+    "title1": "Technology Built",
+    "title2": "For Your Work",
+    "title3": "Rhythm",
+    "cta": "Learn More Here"
+  },
+  "benefits": {
+    "title": "Benefits",
+    "report_automation": {
+      "title": "Automated and Professional Reports",
+      "description": "Generate daily or weekly reports with just a few clicks, including photos, metrics, and observations. Save time and improve the presentation of key information."
+    },
+    "personnel_control": {
+      "title": "Total On-Site Personnel Control",
+      "description": "Generate daily or weekly reports with just a few clicks, including photos, metrics, and observations. Save time and improve the presentation of key information."
+    },
+    "material_management": {
+      "title": "Instant Material Management",
+      "description": "Generate daily or weekly reports with just a few clicks, including photos, metrics, and observations. Save time and improve the presentation of key information."
+    }
+  },
+  "contact": {
+    "title": "Ready to Experience a Quality Service?",
+    "cta": "Contact Us!",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "address": "Address",
+      "district": "District",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "footer": {
+    "follow": "Follow us @ArquiTech",
+    "subscribe": "Subscribe to our website",
+    "subscribe_note": "*Receive offers for our services and helpful tips for device maintenance",
+    "location": "Find Us At",
+    "whatsapp": "+51 987 654 321",
+    "email": "info@arquitech.com",
+    "address": "Av. Gral. Salaverry 2255, San Isidro 15076",
+    "copyright": "© 2025-ArquiTech. All rights reserved",
+    "help_center": "Help Center",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  }
+}

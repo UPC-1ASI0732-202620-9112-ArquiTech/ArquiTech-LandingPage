@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión"
+  },
+  "header": {
+    "title1": "Reportes claros,",
+    "title2": "deciciones rápidas"
+  },
+  "welcome": {
+    "title": "¡Bienvenido a la nueva era de la construcción digital!",
+    "description": "ArquiTech es tu aliado para tomar decisiones rápidas, precisas y respaldadas por datos reales desde la obra o la oficina."
+  },
+  "main": {
+    "title": "Mejores construcciones con ArquiTech",
+    "description": "ArquiTech te ofrece una plataforma modular que responde a las necesidades reales del campo. Desde el registro del personal hasta el análisis del avance, todo está diseñado para ayudarte a ganar tiempo, reducir errores y tomar mejores decisiones."
+  },
+  "about": {
+    "title": "Quienes Somos",
+    "description": "Somos un equipo apasionado por la innovación en el sector construcción. Nacimos al identificar una necesidad urgente: digitalizar procesos operativos en obra que antes eran manuales, lentos y propensos a errores. En ArquiTech creemos que la tecnología puede empoderar a supervisores, asistentes y gerentes, ayudándolos a tomar el control total de sus proyectos, sin complicaciones. Estamos comprometidos con ofrecer una solución profesional, segura y eficiente, adaptada al ritmo de trabajo del campo."
+  },
+  "services": {
+    "title": "Módulos de ArquiTech",
+    "description": "ArquiTech te ofrece una plataforma modular que responde a las necesidades reales del campo. Desde el registro del personal hasta el análisis del avance, todo está diseñado para ayudarte a ganar tiempo, reducir errores y tomar mejores decisiones.",
+    "attendance": "Control de asistencia",
+    "materials": "Gestión de materiales",
+    "reports": "Generación de reportes",
+    "contractors": "Vista de contratantes",
+    "dashboard": "Panel gerencial"
+  },
+  "flexible_hours": {
+    "title1": "Tecnología Construida",
+    "title2": "Para Tu Ritmo de",
+    "title3": "Trabajo",
+    "cta": "Infórmate Aquí"
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "report_automation": {
+      "title": "Reportes Automatizados y Profesionales",
+      "description": "Genera reportes diarios o semanales con solo unos clics, incluyendo fotos, métricas y observaciones. Ahorra tiempo y mejora la presentación de información clave."
+    },
+    "personnel_control": {
+      "title": "Control Total de Personal en Obra",
+      "description": "Genera reportes diarios o semanales con solo unos clics, incluyendo fotos, métricas y observaciones. Ahorra tiempo y mejora la presentación de información clave."
+    },
+    "material_management": {
+      "title": "Gestión de Materiales al Instante",
+      "description": "Genera reportes diarios o semanales con solo unos clics, incluyendo fotos, métricas y observaciones. Ahorra tiempo y mejora la presentación de información clave."
+    }
+  },
+  "contact": {
+    "title": "¿Listo para Experimentar un Servicio de Calidad?",
+    "cta": "Contáctanos!",
+    "form": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "address": "Dirección",
+      "district": "Distrito",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "footer": {
+    "follow": "Síguenos @ArquiTech",
+    "subscribe": "Suscríbete a nuestra web",
+    "subscribe_note": "*Recibe ofertas de nuestros servicios y consejos útiles para el cuidado de tus dispositivos",
+    "location": "Ubícanos en",
+    "whatsapp": "+51 987 654 321",
+    "email": "info@arquitech.com",
+    "address": "Av. Gral. Salaverry 2255, San Isidro 15076",
+    "copyright": "© 2025-ArquiTech. Todos los derechos reservados",
+    "help_center": "Centro de Ayuda",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad"
+  }
+}
