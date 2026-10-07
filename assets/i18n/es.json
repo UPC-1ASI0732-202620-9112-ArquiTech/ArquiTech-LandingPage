@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "ArquiTech | Gestión de obras",
+    "description": "Centraliza materiales, personal e información de obra con ArquiTech. Una propuesta de Foundex para supervisores y contratantes."
+  },
+  "common": {
+    "skip": "Saltar al contenido",
+    "language": "Cambiar a inglés",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "enter": "Entrar a ArquiTech"
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "value": "Solución",
+    "benefits": "Beneficios",
+    "product": "Producto",
+    "team": "Nosotros",
+    "plans": "Planes"
+  },
+  "hero": {
+    "label": "GESTIÓN DE OBRAS · ARQUITECH",
+    "title": "Tu obra organizada.",
+    "highlight": "Tus decisiones, claras.",
+    "description": "Reúne materiales, personal y seguimiento de tus proyectos en una misma plataforma. Información accesible para quienes supervisan la obra y quienes necesitan conocer su avance.",
+    "demo": "Ver planes",
+    "note": "Para supervisores y contratantes de pequeñas y medianas empresas.",
+    "imageAlt": "Profesional revisando planos de construcción junto a un casco de seguridad.",
+    "visualTitle": "Del campo a la oficina",
+    "visualText": "Una visión compartida de tu proyecto."
+  },
+  "value": {
+    "label": "NUESTRA PROPUESTA",
+    "title": "Menos información dispersa. Más claridad.",
+    "description": "Las hojas de cálculo, los registros físicos y los mensajes aislados dificultan el seguimiento de una obra. ArquiTech reúne la información operativa para facilitar la coordinación.",
+    "items": [
+      {
+        "title": "Una obra, una fuente de información",
+        "text": "Organiza los registros de cada proyecto y consulta materiales, trabajadores e incidentes desde un mismo lugar."
+      },
+      {
+        "title": "Cada perfil con su espacio",
+        "text": "El supervisor gestiona la operación. El contratante consulta las obras que tiene asignadas y su información."
+      },
+      {
+        "title": "Decisiones con contexto",
+        "text": "Revisa los recursos y el estado del proyecto para identificar necesidades y preparar el siguiente paso."
+      }
+    ]
+  },
+  "benefits": {
+    "label": "BENEFICIOS",
+    "title": "Más orden en cada jornada de obra.",
+    "description": "Herramientas para registrar lo que ocurre y consultar lo que necesitas, sin depender de archivos separados.",
+    "items": [
+      {
+        "title": "Materiales bajo seguimiento",
+        "text": "Consulta existencias y movimientos de entrada y consumo para mantener el inventario de la obra organizado.",
+        "note": "Inventario e historial de movimientos"
+      },
+      {
+        "title": "Personal mejor organizado",
+        "text": "Reúne trabajadores, asistencia y tareas para dar seguimiento a la actividad del equipo en cada proyecto.",
+        "note": "Trabajadores, asistencia y tareas"
+      },
+      {
+        "title": "Visibilidad para el contratante",
+        "text": "Accede a la información de tus obras asignadas y consulta los incidentes y la maquinaria registrados.",
+        "note": "Consulta según el perfil de acceso"
+      }
+    ]
+  },
+  "product": {
+    "label": "SOBRE EL PRODUCTO",
+    "title": "La información de tu obra, conectada.",
+    "description": "ArquiTech organiza la operación por proyecto. Sus módulos permiten consultar los recursos y registrar la actividad para mantener una visión más clara del trabajo.",
+    "steps": [
+      {
+        "title": "Accede a tu proyecto",
+        "text": "Inicia sesión y selecciona una obra asignada a tu perfil."
+      },
+      {
+        "title": "Organiza la operación",
+        "text": "El supervisor registra personal, materiales, tareas, maquinaria e incidentes."
+      },
+      {
+        "title": "Consulta y da seguimiento",
+        "text": "Revisa los registros del proyecto y su información de seguimiento."
+      }
+    ],
+    "watch": "Reproducir video del producto",
+    "videoTitle": "Presentación del producto ArquiTech",
+    "caption": "Video del producto disponible en el reporte del proyecto.",
+    "external": "Ver en YouTube"
+  },
+  "modes": {
+    "label": "PLANES DE SUSCRIPCIÓN",
+    "title": "Elige el plan para tu próxima obra.",
+    "contact": "Consultar plan",
+    "period": "/ mes",
+    "items": [
+      {
+        "label": "PARA EMPEZAR",
+        "title": "Esencial",
+        "price": "S/ 49",
+        "text": "Organiza la operación de tu primera obra en un solo lugar.",
+        "features": [
+          "1 obra activa",
+          "Hasta 5 usuarios",
+          "Materiales, personal, tareas e incidentes"
+        ]
+      },
+      {
+        "label": "PARA CRECER",
+        "title": "Profesional",
+        "price": "S/ 99",
+        "text": "Coordina varios proyectos y mantén a tu equipo conectado.",
+        "features": [
+          "Hasta 3 obras activas",
+          "Hasta 15 usuarios",
+          "Materiales, personal, tareas e incidentes"
+        ]
+      },
+      {
+        "label": "PARA ESCALAR",
+        "title": "Empresarial",
+        "price": "S/ 199",
+        "text": "Centraliza la información de más obras y equipos de trabajo.",
+        "features": [
+          "Hasta 10 obras activas",
+          "Hasta 50 usuarios",
+          "Materiales, personal, tareas e incidentes"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "videoPlaceholder": "Espacio para el video del equipo",
+    "label": "SOBRE NOSOTROS",
+    "title": "Foundex, el equipo detrás de ArquiTech.",
+    "description": "Estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas.",
+    "contextLabel": "CONSTRUIMOS CON PROPÓSITO",
+    "contextTitle": "Tecnología cercana a la realidad de obra.",
+    "contextText": "Partimos de las necesidades de supervisores y contratantes de pequeñas y medianas empresas de construcción en Lima Metropolitana. El proyecto reúne investigación con usuarios, diseño y desarrollo de la solución.",
+    "report": "Conoce el reporte del proyecto",
+    "course": "Diseño de Experimentos · NRC 9112 · Periodo 2026-20",
+    "missionTitle": "Misión",
+    "mission": "Brindar soluciones digitales que optimicen la gestión de obras en pequeñas y medianas empresas, facilitando la administración de recursos y el seguimiento para impulsar eficiencia, transparencia y decisiones informadas.",
+    "visionTitle": "Visión",
+    "vision": "Ser una plataforma líder en Latinoamérica en la digitalización de procesos constructivos para pequeñas y medianas empresas, con tecnología accesible y enfocada en sus usuarios."
+  },
+  "cta": {
+    "label": "DA EL SIGUIENTE PASO",
+    "title": "Conoce una nueva forma de gestionar tu obra.",
+    "description": "Explora ArquiTech y reúne la información que tu proyecto necesita."
+  },
+  "footer": {
+    "description": "Información de obra organizada para conectar supervisores y contratantes.",
+    "contact": "Contacto",
+    "follow": "Síguenos",
+    "tagline": "Construimos con información."
+  },
+  "legal": {
+    "label": "INFORMACIÓN LEGAL",
+    "back": "Volver a ArquiTech",
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "Esta política describe el alcance de la landing de ArquiTech, una presentación informativa del proyecto académico de Foundex.",
+      "sections": [
+        {
+          "title": "1. Alcance del sitio",
+          "text": "Esta landing presenta ArquiTech y sus recursos públicos. No crea cuentas, procesa pagos ni administra registros de obra. La aplicación enlazada es un servicio separado y tiene sus propios procesos de acceso."
+        },
+        {
+          "title": "2. Información que recibimos",
+          "text": "La landing no incluye formularios de contacto, suscripción ni registro. No solicita nombre, teléfono o correo. El proveedor de alojamiento puede procesar información técnica de conexión para servir el sitio, conforme a sus propias políticas."
+        },
+        {
+          "title": "3. Preferencia de idioma",
+          "text": "Guardamos únicamente la preferencia ES o EN en el almacenamiento local de tu navegador, bajo la clave arquitech-language. Puedes eliminarla desde la configuración de datos del sitio. Si el almacenamiento no está disponible, el selector sigue funcionando durante la visita."
+        },
+        {
+          "title": "4. Videos y servicios externos",
+          "text": "Los enlaces a la aplicación y a Facebook, Instagram y Twitter/X llevan a servicios externos. Al visitarlos, esos proveedores pueden tratar información conforme a sus propias políticas. Esta landing no incorpora reproductores de video externos."
+        },
+        {
+          "title": "5. Información en servicios externos",
+          "text": "Los iconos sociales llevan a las páginas oficiales de cada plataforma, no a perfiles de ArquiTech. Si utilizas esos servicios, evita compartir contraseñas o información sensible y revisa sus políticas de privacidad."
+        },
+        {
+          "title": "6. Actualizaciones y control",
+          "text": "Esta información puede actualizarse si cambia el comportamiento de la landing. Puedes revisar la versión publicada y borrar los datos locales desde tu navegador. No incorporamos cookies analíticas ni herramientas de seguimiento en el código de esta landing."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos y condiciones",
+      "intro": "Estos términos explican el uso del sitio informativo de ArquiTech y el acceso a sus recursos públicos.",
+      "sections": [
+        {
+          "title": "1. Propósito informativo",
+          "text": "La landing comunica la propuesta, los perfiles de uso y el contexto académico de ArquiTech. La información no constituye una oferta comercial ni una garantía de resultados, plazos o disponibilidad."
+        },
+        {
+          "title": "2. Uso adecuado",
+          "text": "Utiliza el sitio y sus enlaces de forma responsable. No intentes alterar su funcionamiento, introducir contenido malicioso o utilizar los recursos para perjudicar al equipo o a otras personas."
+        },
+        {
+          "title": "3. Contenido y autoría",
+          "text": "La marca, los textos y los recursos del proyecto corresponden a sus autores y titulares respectivos. La presencia de tecnologías o plataformas externas describe el ecosistema técnico y no implica alianza, patrocinio ni certificación."
+        },
+        {
+          "title": "4. Enlaces externos",
+          "text": "Los enlaces a la aplicación y las redes sociales llevan a servicios independientes. Su uso está sujeto a sus propios términos y políticas. Los iconos sociales enlazan los sitios oficiales de las plataformas, no cuentas del proyecto."
+        },
+        {
+          "title": "5. Disponibilidad y cambios",
+          "text": "El sitio puede cambiar o estar temporalmente fuera de servicio por mantenimiento o por decisiones del proveedor de alojamiento. El proyecto evoluciona durante el curso; los requisitos y las capacidades documentadas pueden actualizarse."
+        },
+        {
+          "title": "6. Información del proyecto",
+          "text": "Foundex desarrolla ArquiTech como proyecto académico. Consulta la presentación del producto y las preguntas frecuentes para conocer su alcance. Esta página recoge los términos vigentes del sitio informativo."
+        }
+      ]
+    }
+  },
+  "trust": {
+    "label": "CONSTRUYE CON CONFIANZA",
+    "title": "Pensado para constructoras como la tuya.",
+    "description": "Una propuesta para acercar a supervisores y contratantes, con información de obra más organizada y accesible."
+  },
+  "faq": {
+    "label": "PREGUNTAS FRECUENTES",
+    "title": "Resolvemos tus dudas.",
+    "items": [
+      {
+        "question": "¿Qué puedo gestionar con ArquiTech?",
+        "answer": "Puedes organizar la información de cada obra: materiales, trabajadores, asistencia, tareas, maquinaria e incidentes. Los registros se agrupan por proyecto para facilitar su seguimiento."
+      },
+      {
+        "question": "¿ArquiTech está pensado para mi constructora?",
+        "answer": "La propuesta está dirigida a pequeñas y medianas empresas de construcción, especialmente a quienes supervisan la operación de una obra y a los contratantes que necesitan conocer su avance."
+      },
+      {
+        "question": "¿Qué puede hacer un supervisor y qué puede consultar un contratante?",
+        "answer": "El supervisor administra los recursos y registra la actividad de las obras a su cargo. El contratante consulta la información de sus proyectos asignados, con acceso según su perfil."
+      },
+      {
+        "question": "¿Cómo se lleva el control de materiales?",
+        "answer": "El supervisor registra las entradas y el consumo de materiales. El inventario y el historial de movimientos permiten consultar las existencias y revisar los cambios registrados en cada obra."
+      },
+      {
+        "question": "¿Puedo dar seguimiento a las tareas y los incidentes?",
+        "answer": "Sí. El supervisor puede registrar tareas, actualizar su estado y gestionar incidentes. La información queda asociada al proyecto para que los perfiles autorizados puedan consultarla."
+      }
+    ]
+  }
+}
