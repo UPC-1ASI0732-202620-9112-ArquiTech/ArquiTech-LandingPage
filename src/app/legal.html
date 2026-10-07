@@ -1,0 +1,14 @@
+<article class="legal-page">
+  <a class="text-link back-link" routerLink="/"
+    ><at-icon name="back" />{{ "legal.back" | translate }}</a
+  >
+  <p class="eyebrow">{{ "legal.label" | translate }}</p>
+  <h1>{{ "legal." + page + ".title" | translate }}</h1>
+  <p class="lead">{{ "legal." + page + ".intro" | translate }}</p>
+  @for (section of sections; track section) {
+    <section>
+      <h2>{{ "legal." + page + ".sections." + section + ".title" | translate }}</h2>
+      <p>{{ "legal." + page + ".sections." + section + ".text" | translate }}</p>
+    </section>
+  }
+</article>

@@ -1,255 +1,92 @@
-<!DOCTYPE html>
-<html [lang]="translate.currentLang">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <title>Fix Device</title>
-</head>
-<body>
-<div class="head">
-  <div class="Fix-Device">
-    <img src="assets/img/logo.jpg" alt="logo" class="logo">
-    <div class="text-container">
-      <p>ARQUITECH</p>
+<a class="skip-link" href="#main">{{ "common.skip" | translate }}</a>
+<header class="site-header" [class.scrolled]="scrolled">
+  <div class="shell nav-inner">
+    <a class="brand" routerLink="/" fragment="home" (click)="closeMenu()" aria-label="ArquiTech"
+      ><img src="assets/img/logo.jpg" alt="" width="42" height="42" /><span
+        >Arqui<span class="accent">Tech</span></span
+      ></a
+    >
+    <nav id="main-navigation" [class.open]="menuOpen" [attr.aria-label]="'nav.label' | translate">
+      @for (section of navigation; track section) {
+        <a routerLink="/" [fragment]="section" (click)="closeMenu()">{{
+          "nav." + section | translate
+        }}</a>
+      }
+    </nav>
+    <div class="header-actions">
+      <button
+        class="language-toggle"
+        (click)="language.toggle()"
+        [attr.aria-label]="'common.language' | translate"
+      >
+        <at-icon name="globe" /><span>{{ language.current().toUpperCase() }}</span>
+      </button>
+      <a class="button nav-cta" [href]="product.app">ArquiTech <at-icon name="arrow" /></a>
+      <button
+        id="menu-toggle"
+        class="menu-toggle"
+        aria-controls="main-navigation"
+        [attr.aria-expanded]="menuOpen"
+        [attr.aria-label]="(menuOpen ? 'common.close' : 'common.menu') | translate"
+        (click)="toggleMenu()"
+      >
+        <at-icon [name]="menuOpen ? 'close' : 'menu'" />
+      </button>
     </div>
-  </div>
-  <nav class="navbar">
-      <a href="#home">{{ 'navbar.home' | translate }}</a>
-      <a href="#about">{{ 'navbar.contact' | translate }}</a>
-    <a href="https://arquitech-front-end.netlify.app/">{{ 'navbar.login' | translate }}</a>
-    <select (change)="changeLanguage($event)">
-      <option value="en">English</option>
-      <option value="es">Español</option>
-    </select>
-  </nav>
-</div>
-
-<header id="home" class="Header">
-  <div class="title">
-    <h1>{{ 'header.title1' | translate }}</h1>
-    <h1><span>{{ 'header.title2' | translate }}</span></h1>
-  </div>
-  <div class="logoarquitech">
-    <img src="assets/img/logo.jpg">
   </div>
 </header>
-
-<div class="contenedor">
-  <div class="aparato">
-    <h4>{{ 'welcome.title' | translate }}</h4>
-    <p>{{ 'welcome.description' | translate }}</p>
-  </div>
-</div>
-
-<main class="main">
-  <div class="persona">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/k3Z0771Au1Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div class="container_main">
-    <div class="container_title">
-      <div class="cuadritorojo"></div>
-      <h2 class="title">{{ 'main.title' | translate }}</h2>
-    </div>
-    <p>{{ 'main.description' | translate }}</p>
-  </div>
-</main>
-
-<section class="About">
-  <div class="Who">
-    <h3>{{ 'about.title' | translate }}</h3>
-    <p>{{ 'about.description' | translate }}</p>
-  </div>
-  <div class="img_about"> <iframe width="560" height="315" src="https://www.youtube.com/embed/s9ABkalTtPY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</section>
-
-<section class="Services">
-  <div class="ourservice">
-    <h2>{{ 'services.title' | translate }} <span>ARQUITECH</span></h2>
-    <p>{{ 'services.description' | translate }}</p>
-  </div>
-  <div class="Services_comp_cel_lap">
-    <div class="single_service">
-      <div class="imagencuadradito">
-        <img src="assets/img/asistencia.png">
-        <div class="cuadraditonegro">
-          <h4>{{ 'services.attendance' | translate }}</h4>
+<main id="main"><router-outlet /></main>
+<footer>
+  <div class="shell">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" routerLink="/" fragment="home"
+          ><img src="assets/img/logo.jpg" alt="" width="42" height="42" /><span>ArquiTech</span></a
+        >
+        <p>{{ "footer.description" | translate }}</p>
+      </div>
+      <div class="footer-contact">
+        <h3>{{ "footer.contact" | translate }}</h3>
+        <address>
+          <a href="mailto:contacto@arquitech.com">contacto@arquitech.com</a>
+          <span>Lima, Perú</span>
+          <a href="tel:+51948742332">+51 948 742 332</a>
+        </address>
+      </div>
+      <div class="footer-social">
+        <h3>{{ "footer.follow" | translate }}</h3>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/"
+            aria-label="Facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><at-icon name="facebook"
+          /></a>
+          <a
+            href="https://www.instagram.com/"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><at-icon name="instagram"
+          /></a>
+          <a
+            href="https://x.com/"
+            aria-label="Twitter / X"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><at-icon name="twitter"
+          /></a>
         </div>
       </div>
     </div>
-    <div class="single_service">
-      <div class="imagencuadradito">
-        <img src="assets/img/gestion_materiales.png">
-        <div class="cuadraditonegro">
-          <h4>{{ 'services.materials' | translate }}</h4>
-        </div>
+    <div class="footer-bottom">
+      <span>{{ "footer.tagline" | translate }}</span
+      ><span class="copyright">© 2026 ArquiTech · Foundex</span>
+      <div class="legal-links">
+        <a routerLink="/privacy">{{ "legal.privacy.title" | translate }}</a
+        ><a routerLink="/terms">{{ "legal.terms.title" | translate }}</a>
       </div>
-    </div>
-    <div class="single_service">
-      <div class="imagencuadradito">
-        <img src="assets/img/generacion_reportes.png">
-        <div class="cuadraditonegro">
-          <h4>{{ 'services.reports' | translate }}</h4>
-        </div>
-      </div>
-    </div>
-    <div class="single_service">
-      <div class="imagencuadradito">
-        <img src="assets/img/vista_contratante.png">
-        <div class="cuadraditonegro">
-          <h4>{{ 'services.contractors' | translate }}</h4>
-        </div>
-      </div>
-    </div>
-    <div class="single_service">
-      <div class="imagencuadradito">
-        <img src="assets/img/panel_gerencial.png">
-        <div class="cuadraditonegro">
-          <h4>{{ 'services.dashboard' | translate }}</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="Flexible-hours">
-  <div class="Horarios-Flexibles">
-    <div class="H-F">
-      <h2>{{ 'flexible_hours.title1' | translate }}</h2>
-      <h2>{{ 'flexible_hours.title2' | translate }}</h2>
-      <h2>{{ 'flexible_hours.title3' | translate }}</h2>
-    </div>
-    <a>{{ 'flexible_hours.cta' | translate }}</a>
-  </div>
-  <div class="img-horarios">
-    <img src="assets/img/horarios.jpg">
-  </div>
-</section>
-
-<section class="HappyCustomers">
-  <h3>{{ 'benefits.title' | translate }}</h3>
-  <div class="comentarios">
-    <div class="comment-box">
-      <h2>{{ 'benefits.report_automation.title' | translate }}</h2>
-      <p>{{ 'benefits.report_automation.description' | translate }}</p>
-    </div>
-    <div class="comment-box">
-      <h2>{{ 'benefits.personnel_control.title' | translate }}</h2>
-      <p>{{ 'benefits.personnel_control.description' | translate }}</p>
-    </div>
-    <div class="comment-box">
-      <h2>{{ 'benefits.material_management.title' | translate }}</h2>
-      <p>{{ 'benefits.material_management.description' | translate }}</p>
-    </div>
-  </div>
-</section>
-
-<section class="VideoSection">
-    <div class="video-container">
-        <h2>Ver nuestro Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9PpofiMXhtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</section>
-
-<section id="about" class="LastSection">
-  <div class="Ready">
-    <h2 [innerHTML]="'contact.title' | translate"></h2>
-    <p>{{ 'contact.cta' | translate }}</p>
-  </div>
-  <div class="formulario">
-    <form class="form">
-      <input class="controls" type="text" name="Nombre" id="Nombre" [placeholder]="'contact.form.name' | translate">
-      <input class="controls" type="tel" name="Telefono" id="Telefono" [placeholder]="'contact.form.phone' | translate">
-      <input class="controls" type="text" name="Dirección" id="Dirección" [placeholder]="'contact.form.address' | translate">
-      <input class="controls" type="text" name="Distrito" id="Distrito" [placeholder]="'contact.form.district' | translate">
-      <input class="controls" type="email" name="Email" id="Email" [placeholder]="'contact.form.email' | translate">
-      <textarea class="controls" name="textarea" id="" [placeholder]="'contact.form.message' | translate"></textarea>
-    </form>
-    <a>{{ 'contact.form.submit' | translate }}</a>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="upfooter">
-    <div class="seccionfooter">
-      <h3>{{ 'footer.follow' | translate }}</h3>
-      <div class="fb_ig">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
-      </div>
-    </div>
-    <div class="seccionfooter">
-      <h3>{{ 'footer.subscribe' | translate }}</h3>
-      <div class="email_sucribete">
-        <input type="email" name="email"  [placeholder]="'footer.email' | translate">
-        <a>{{ 'footer.subscribe' | translate }}</a>
-      </div>
-      <p>{{ 'footer.subscribe_note' | translate }}</p>
-    </div>
-    <div class="seccionfooter">
-      <h3>{{ 'footer.location' | translate }}</h3>
-      <div class="redes">
-        <div class="whatsapp_num">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.10c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/></svg>
-          <p>{{ 'footer.whatsapp' | translate }}</p>
-        </div>
-        <div class="email_email">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M20 18h-2V9.25L12 13L6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg>
-          <p>{{ 'footer.email' | translate }}</p>
-        </div>
-        <div class="ubicacion_ubi">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 48 48"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M24 4.5c-8.185 0-14.82 6.635-14.82 14.82h0v1.08c.6 8.12 7.34 14.65 14.82 23.1c7.81-8.82
-
-14.82-15.5 14.82-24.18h0C38.82 11.135 32.185 4.5 24 4.5m10 14.83c0 5.523-4.477 10-10 10s-10-4.477-10-10s4.477-10 10-10s10 4.477 10 10m-4.05-3.906a2.044 2.044 0 1 1-4.089 0a2.044 2.044 0 0 1 4.09 0"/></svg>
-          <p>{{ 'footer.address' | translate }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="downfotter">
-    <p>{{ 'footer.copyright' | translate }}</p>
-    <div class="help_terms_privacy">
-      <p>{{ 'footer.help_center' | translate }}</p>
-      <p>{{ 'footer.terms' | translate }}</p>
-      <p>{{ 'footer.privacy' | translate }}</p>
     </div>
   </div>
 </footer>
-
-<script>
-
-    const links = document.querySelectorAll('.navbar a');
-
-    links.forEach(link => {
-        link.addEventListener('click', function() {
-            links.forEach(link => link.classList.remove('active')); // Eliminar la clase activa
-            this.classList.add('active'); // Agregar la clase activa al enlace actual
-        });
-    });
-
-    window.addEventListener('scroll', function() {
-        let current = '';
-        document.querySelectorAll('section').forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (pageYOffset >= sectionTop - sectionHeight / 3) {
-                current = section.getAttribute('id');
-            }
-        });
-
-        links.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === `#${current}`) {
-                link.classList.add('active');
-            }
-        });
-    });
-</script>
-
-
-</body>
-</html>

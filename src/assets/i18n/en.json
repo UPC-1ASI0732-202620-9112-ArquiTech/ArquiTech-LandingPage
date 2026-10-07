@@ -1,79 +1,243 @@
 {
-  "navbar": {
-    "home": "Home",
-    "contact": "Contact",
-    "login": "Login"
+  "meta": {
+    "title": "ArquiTech | Construction project management",
+    "description": "Bring materials, people and construction project information together with ArquiTech. A Foundex project for site supervisors and clients."
   },
-  "header": {
-    "title1": "Clear Reports,",
-    "title2": "Quick Decisions"
+  "common": {
+    "skip": "Skip to content",
+    "language": "Switch to Spanish",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "enter": "Open ArquiTech"
   },
-  "welcome": {
-    "title": "Welcome to the new era of digital construction!",
-    "description": "ArquiTech is your ally for making quick, accurate, and data-driven decisions from the construction site or the office."
+  "nav": {
+    "label": "Main navigation",
+    "value": "Solution",
+    "benefits": "Benefits",
+    "product": "Product",
+    "modes": "Use cases",
+    "team": "About us"
   },
-  "main": {
-    "title": "Better constructions with ArquiTech",
-    "description": "ArquiTech offers a modular platform that addresses the real needs of the field. From personnel registration to progress analysis, everything is designed to save you time, reduce errors, and make better decisions."
+  "hero": {
+    "label": "CONSTRUCTION MANAGEMENT · ARQUITECH",
+    "title": "Your site, organized.",
+    "highlight": "Your decisions, clear.",
+    "description": "Bring materials, people and project tracking together in one platform. Accessible information for site supervisors and the clients who need to follow their progress.",
+    "demo": "View use cases",
+    "note": "For supervisors and clients of small and medium construction businesses.",
+    "imageAlt": "Professional reviewing construction plans beside a safety helmet.",
+    "visualTitle": "From the site to the office",
+    "visualText": "A shared view of your project."
   },
-  "about": {
-    "title": "Who We Are",
-    "description": "We are a team passionate about innovation in the construction sector. We were born to address an urgent need: digitizing operational processes on-site that were previously manual, slow, and prone to errors. At ArquiTech, we believe technology can empower supervisors, assistants, and managers, helping them take full control of their projects without complications. We are committed to providing a professional, secure, and efficient solution tailored to the pace of fieldwork."
-  },
-  "services": {
-    "title": "ArquiTech Modules",
-    "description": "ArquiTech offers a modular platform that addresses the real needs of the field. From personnel registration to progress analysis, everything is designed to save you time, reduce errors, and make better decisions.",
-    "attendance": "Attendance Control",
-    "materials": "Materials Management",
-    "reports": "Report Generation",
-    "contractors": "Contractors View",
-    "dashboard": "Management Dashboard"
-  },
-  "flexible_hours": {
-    "title1": "Technology Built",
-    "title2": "For Your Work",
-    "title3": "Rhythm",
-    "cta": "Learn More Here"
+  "value": {
+    "label": "OUR PROPOSAL",
+    "title": "Less scattered information. More clarity.",
+    "description": "Spreadsheets, paper records and isolated messages make construction projects harder to follow. ArquiTech brings operational information together to support coordination.",
+    "items": [
+      {
+        "title": "One project, one source of information",
+        "text": "Organize each project’s records and view materials, workers and incidents in one place."
+      },
+      {
+        "title": "A space for each role",
+        "text": "The supervisor manages operations. The client views assigned projects and their information."
+      },
+      {
+        "title": "Decisions with context",
+        "text": "Review resources and project status to identify needs and prepare the next step."
+      }
+    ]
   },
   "benefits": {
-    "title": "Benefits",
-    "report_automation": {
-      "title": "Automated and Professional Reports",
-      "description": "Generate daily or weekly reports with just a few clicks, including photos, metrics, and observations. Save time and improve the presentation of key information."
-    },
-    "personnel_control": {
-      "title": "Total On-Site Personnel Control",
-      "description": "Generate daily or weekly reports with just a few clicks, including photos, metrics, and observations. Save time and improve the presentation of key information."
-    },
-    "material_management": {
-      "title": "Instant Material Management",
-      "description": "Generate daily or weekly reports with just a few clicks, including photos, metrics, and observations. Save time and improve the presentation of key information."
-    }
+    "label": "BENEFITS",
+    "title": "A more organized day on site.",
+    "description": "Tools to record what happens and find what you need without relying on separate files.",
+    "items": [
+      {
+        "title": "Materials you can track",
+        "text": "Review stock, incoming materials and consumption to keep the site inventory organized.",
+        "note": "Inventory and movement history"
+      },
+      {
+        "title": "Better team organization",
+        "text": "Bring workers, attendance and tasks together to follow the team’s activity on each project.",
+        "note": "Workers, attendance and tasks"
+      },
+      {
+        "title": "Visibility for the client",
+        "text": "Access information on your assigned projects and view recorded incidents and machinery.",
+        "note": "Access based on your role"
+      }
+    ]
   },
-  "contact": {
-    "title": "Ready to Experience a Quality Service?",
-    "cta": "Contact Us!",
-    "form": {
-      "name": "Name",
-      "phone": "Phone",
-      "address": "Address",
-      "district": "District",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send"
-    }
+  "product": {
+    "label": "ABOUT THE PRODUCT",
+    "title": "Your project information, connected.",
+    "description": "ArquiTech organizes operations by project. Its modules let you view resources and record activities to maintain a clearer picture of the work.",
+    "steps": [
+      {
+        "title": "Access your project",
+        "text": "Sign in and select a project assigned to your role."
+      },
+      {
+        "title": "Organize operations",
+        "text": "The supervisor records workers, materials, tasks, machinery and incidents."
+      },
+      {
+        "title": "Review and follow up",
+        "text": "View the project records and tracking information."
+      }
+    ],
+    "watch": "Play the product video",
+    "videoTitle": "ArquiTech product presentation",
+    "caption": "Product video available in the project report.",
+    "external": "Watch on YouTube"
+  },
+  "modes": {
+    "label": "WAYS TO USE ARQUITECH",
+    "title": "Two roles. One shared project.",
+    "items": [
+      {
+        "label": "OPERATIONAL MANAGEMENT",
+        "title": "Site supervisor",
+        "text": "For people coordinating resources and keeping information up to date on the projects they manage.",
+        "features": [
+          "Project and resource management",
+          "Attendance and task records",
+          "Material and incident tracking"
+        ]
+      },
+      {
+        "label": "PROJECT FOLLOW-UP",
+        "title": "Project client",
+        "text": "For people who need to view their project information and the work recorded by the site team.",
+        "features": [
+          "View assigned projects",
+          "Visibility of workers and materials",
+          "View machinery and incidents"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "videoPlaceholder": "Space for the team video",
+    "label": "ABOUT US",
+    "title": "Foundex, the team behind ArquiTech.",
+    "description": "Software Engineering students at Universidad Peruana de Ciencias Aplicadas.",
+    "contextLabel": "BUILDING WITH PURPOSE",
+    "contextTitle": "Technology grounded in life on site.",
+    "contextText": "We start with the needs of supervisors and clients of small and medium construction businesses in Metropolitan Lima. The project combines user research, design and software development.",
+    "report": "Read the project report",
+    "course": "Design of Experiments · NRC 9112 · Term 2026-20",
+    "missionTitle": "Mission",
+    "mission": "Provide digital solutions that improve construction project management for small and medium businesses, supporting resource administration and tracking to encourage efficiency, transparency and informed decisions.",
+    "visionTitle": "Vision",
+    "vision": "Become a leading platform in Latin America for digital construction processes in small and medium businesses, with accessible technology focused on users’ needs."
+  },
+  "cta": {
+    "label": "TAKE THE NEXT STEP",
+    "title": "Discover a new way to manage your project.",
+    "description": "Explore ArquiTech and bring together the information your project needs."
   },
   "footer": {
-    "follow": "Follow us @ArquiTech",
-    "subscribe": "Subscribe to our website",
-    "subscribe_note": "*Receive offers for our services and helpful tips for device maintenance",
-    "location": "Find Us At",
-    "whatsapp": "+51 987 654 321",
-    "email": "info@arquitech.com",
-    "address": "Av. Gral. Salaverry 2255, San Isidro 15076",
-    "copyright": "© 2025-ArquiTech. All rights reserved",
-    "help_center": "Help Center",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy"
+    "description": "Organized construction information connecting supervisors and clients.",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "tagline": "Building with information."
+  },
+  "legal": {
+    "label": "LEGAL INFORMATION",
+    "back": "Back to ArquiTech",
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "This policy describes the scope of the ArquiTech landing page, an informational presentation of Foundex’s academic project.",
+      "sections": [
+        {
+          "title": "1. Scope of the site",
+          "text": "This landing page presents ArquiTech and its public resources. It does not create accounts, process payments or manage construction records. The linked application is a separate service with its own access processes."
+        },
+        {
+          "title": "2. Information we receive",
+          "text": "The landing page has no contact, subscription or registration forms. It does not request your name, phone number or email. The hosting provider may process technical connection information to serve the site under its own policies."
+        },
+        {
+          "title": "3. Language preference",
+          "text": "We save only your ES or EN language preference in your browser’s local storage under arquitech-language. You can remove it in your browser’s site data settings. If storage is unavailable, the selector still works during your visit."
+        },
+        {
+          "title": "4. Videos and external services",
+          "text": "Links to the application and to Facebook, Instagram and Twitter/X lead to external services. When you visit them, those providers may process information under their own policies. This landing page does not embed external video players."
+        },
+        {
+          "title": "5. Information on external services",
+          "text": "Social icons lead to each platform’s official site, not ArquiTech profiles. If you use those services, avoid sharing passwords or sensitive information and review their privacy policies."
+        },
+        {
+          "title": "6. Updates and control",
+          "text": "This information may be updated when the landing page’s behavior changes. You can review the published version and clear local data in your browser. We do not include analytics cookies or tracking tools in this landing page’s code."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms and conditions",
+      "intro": "These terms explain the use of the ArquiTech informational site and access to its public resources.",
+      "sections": [
+        {
+          "title": "1. Informational purpose",
+          "text": "The landing page communicates ArquiTech’s proposal, user roles and academic context. Its information is not a commercial offer or a guarantee of results, deadlines or availability."
+        },
+        {
+          "title": "2. Appropriate use",
+          "text": "Use the site and its links responsibly. Do not attempt to disrupt its operation, introduce malicious content or use its resources to harm the team or other people."
+        },
+        {
+          "title": "3. Content and authorship",
+          "text": "The brand, texts and project resources belong to their respective authors and owners. External technologies and platforms describe the technical ecosystem and do not imply partnership, sponsorship or certification."
+        },
+        {
+          "title": "4. External links",
+          "text": "Application and social media links lead to independent services subject to their own terms and policies. Social icons link to the platforms’ official sites, not project accounts."
+        },
+        {
+          "title": "5. Availability and changes",
+          "text": "The site may change or be temporarily unavailable due to maintenance or hosting decisions. The project evolves during the course; documented requirements and capabilities may be updated."
+        },
+        {
+          "title": "6. Project information",
+          "text": "Foundex develops ArquiTech as an academic project. Review the product presentation and frequently asked questions to understand its scope. This page contains the current terms for the informational site."
+        }
+      ]
+    }
+  },
+  "trust": {
+    "label": "BUILD WITH CONFIDENCE",
+    "title": "Designed for construction businesses like yours.",
+    "description": "A proposal to connect site supervisors and project clients through more organized, accessible construction information."
+  },
+  "faq": {
+    "label": "FREQUENTLY ASKED QUESTIONS",
+    "title": "Your questions, answered.",
+    "items": [
+      {
+        "question": "What can I manage with ArquiTech?",
+        "answer": "You can organize each project’s materials, workers, attendance, tasks, machinery and incidents. Records are grouped by project to make follow-up easier."
+      },
+      {
+        "question": "Is ArquiTech designed for my construction business?",
+        "answer": "The proposal is intended for small and medium construction businesses, especially people supervising site operations and clients who need to follow their project’s progress."
+      },
+      {
+        "question": "What can supervisors manage and clients view?",
+        "answer": "Supervisors manage resources and record activity for their projects. Clients view information for their assigned projects, with access based on their role."
+      },
+      {
+        "question": "How are materials tracked?",
+        "answer": "Supervisors record incoming materials and consumption. The inventory and movement history let users view stock and review recorded changes for each project."
+      },
+      {
+        "question": "Can I follow up on tasks and incidents?",
+        "answer": "Yes. Supervisors can record tasks, update their status and manage incidents. Information is associated with the project so authorized users can view it."
+      }
+    ]
   }
 }
