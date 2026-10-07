@@ -96,11 +96,10 @@
       <h2>{{ "modes.title" | translate }}</h2>
     </div>
     <div class="cards mode-cards">
-      @for (mode of [0, 1, 2]; track mode) {
+      @for (mode of [0]; track mode) {
         <article class="card mode-card">
           <span class="eyebrow">{{ "modes.items." + mode + ".label" | translate }}</span>
           <h3>{{ "modes.items." + mode + ".title" | translate }}</h3>
-          <div class="plan-price"><strong>{{ "modes.items." + mode + ".price" | translate }}</strong><span>{{ "modes.period" | translate }}</span></div>
           <p>{{ "modes.items." + mode + ".text" | translate }}</p>
           <ul>
             @for (item of [0, 1, 2]; track item) {
