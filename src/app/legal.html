@@ -5,10 +5,24 @@
   <p class="eyebrow">{{ "legal.label" | translate }}</p>
   <h1>{{ "legal." + page + ".title" | translate }}</h1>
   <p class="lead">{{ "legal." + page + ".intro" | translate }}</p>
+  @if (page === 'terms') {
+    <p class="legal-updated">{{ 'legal.terms.updated' | translate }}</p>
+  }
   @for (section of sections; track section) {
     <section>
       <h2>{{ "legal." + page + ".sections." + section + ".title" | translate }}</h2>
       <p>{{ "legal." + page + ".sections." + section + ".text" | translate }}</p>
     </section>
+  }
+  @if (page === 'terms') {
+    <nav class="legal-references" [attr.aria-label]="'legal.terms.references' | translate">
+      <h2>{{ 'legal.terms.references' | translate }}</h2>
+      <a href="https://www.gob.pe/institucion/anpd/normas-legales" target="_blank" rel="noopener noreferrer">Ley N.° 29733 · ANPD</a>
+      <a href="https://www.acm.org/code-of-ethics" target="_blank" rel="noopener noreferrer">ACM Code of Ethics</a>
+      <a href="https://www.ieee.org/about/corporate/governance/p7-8.html" target="_blank" rel="noopener noreferrer">IEEE Code of Ethics</a>
+      <a href="https://www.cip.org.pe/reglamentos/" target="_blank" rel="noopener noreferrer">CIP</a>
+      <a href="mailto:contacto@arquitech.com">contacto&#64;arquitech.com</a>
+      <a routerLink="/privacy">{{ 'legal.privacy.title' | translate }}</a>
+    </nav>
   }
 </article>
