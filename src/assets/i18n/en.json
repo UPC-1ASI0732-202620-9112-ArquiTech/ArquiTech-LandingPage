@@ -15,15 +15,15 @@
     "value": "Solution",
     "benefits": "Benefits",
     "product": "Product",
-    "modes": "Use cases",
-    "team": "About us"
+    "team": "About us",
+    "plans": "Plans"
   },
   "hero": {
     "label": "CONSTRUCTION MANAGEMENT · ARQUITECH",
     "title": "Your site, organized.",
     "highlight": "Your decisions, clear.",
     "description": "Bring materials, people and project tracking together in one platform. Accessible information for site supervisors and the clients who need to follow their progress.",
-    "demo": "View use cases",
+    "demo": "View plans",
     "note": "For supervisors and clients of small and medium construction businesses.",
     "imageAlt": "Professional reviewing construction plans beside a safety helmet.",
     "visualTitle": "From the site to the office",
@@ -94,27 +94,42 @@
     "external": "Watch on YouTube"
   },
   "modes": {
-    "label": "WAYS TO USE ARQUITECH",
-    "title": "Two roles. One shared project.",
+    "label": "SUBSCRIPTION PLANS",
+    "title": "Choose a plan for your next project.",
+    "contact": "Ask about this plan",
+    "period": "/ month",
     "items": [
       {
-        "label": "OPERATIONAL MANAGEMENT",
-        "title": "Site supervisor",
-        "text": "For people coordinating resources and keeping information up to date on the projects they manage.",
+        "label": "GET STARTED",
+        "title": "Essential",
+        "price": "S/ 49",
+        "text": "Organize your first construction project in one place.",
         "features": [
-          "Project and resource management",
-          "Attendance and task records",
-          "Material and incident tracking"
+          "1 active project",
+          "Up to 5 users",
+          "Materials, workers, tasks and incidents"
         ]
       },
       {
-        "label": "PROJECT FOLLOW-UP",
-        "title": "Project client",
-        "text": "For people who need to view their project information and the work recorded by the site team.",
+        "label": "KEEP GROWING",
+        "title": "Professional",
+        "price": "S/ 99",
+        "text": "Coordinate multiple projects and keep your team connected.",
         "features": [
-          "View assigned projects",
-          "Visibility of workers and materials",
-          "View machinery and incidents"
+          "Up to 3 active projects",
+          "Up to 15 users",
+          "Materials, workers, tasks and incidents"
+        ]
+      },
+      {
+        "label": "SCALE YOUR TEAM",
+        "title": "Business",
+        "price": "S/ 199",
+        "text": "Centralize information across more projects and teams.",
+        "features": [
+          "Up to 10 active projects",
+          "Up to 50 users",
+          "Materials, workers, tasks and incidents"
         ]
       }
     ]

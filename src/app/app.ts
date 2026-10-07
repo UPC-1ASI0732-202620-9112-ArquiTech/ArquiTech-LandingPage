@@ -19,7 +19,7 @@ export class AppComponent implements OnDestroy {
   private readonly document = inject(DOCUMENT);
   menuOpen = false;
   scrolled = false;
-  readonly navigation = ['value', 'benefits', 'product', 'modes', 'team'];
+  readonly navigation = ['value', 'benefits', 'product', 'plans', 'team'];
   constructor() {
     inject(ViewportScroller).setOffset([0, 100]);
   }

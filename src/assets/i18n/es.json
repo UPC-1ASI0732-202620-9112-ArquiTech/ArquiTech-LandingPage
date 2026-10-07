@@ -15,15 +15,15 @@
     "value": "Solución",
     "benefits": "Beneficios",
     "product": "Producto",
-    "modes": "Modalidades",
-    "team": "Nosotros"
+    "team": "Nosotros",
+    "plans": "Planes"
   },
   "hero": {
     "label": "GESTIÓN DE OBRAS · ARQUITECH",
     "title": "Tu obra organizada.",
     "highlight": "Tus decisiones, claras.",
     "description": "Reúne materiales, personal y seguimiento de tus proyectos en una misma plataforma. Información accesible para quienes supervisan la obra y quienes necesitan conocer su avance.",
-    "demo": "Ver modalidades",
+    "demo": "Ver planes",
     "note": "Para supervisores y contratantes de pequeñas y medianas empresas.",
     "imageAlt": "Profesional revisando planos de construcción junto a un casco de seguridad.",
     "visualTitle": "Del campo a la oficina",
@@ -94,27 +94,42 @@
     "external": "Ver en YouTube"
   },
   "modes": {
-    "label": "MODALIDADES DE USO",
-    "title": "Dos perfiles. Una obra compartida.",
+    "label": "PLANES DE SUSCRIPCIÓN",
+    "title": "Elige el plan para tu próxima obra.",
+    "contact": "Consultar plan",
+    "period": "/ mes",
     "items": [
       {
-        "label": "GESTIÓN OPERATIVA",
-        "title": "Supervisor de obra",
-        "text": "Para quienes coordinan los recursos y mantienen actualizada la información de los proyectos a su cargo.",
+        "label": "PARA EMPEZAR",
+        "title": "Esencial",
+        "price": "S/ 49",
+        "text": "Organiza la operación de tu primera obra en un solo lugar.",
         "features": [
-          "Gestión de proyectos y recursos",
-          "Registro de asistencia y tareas",
-          "Seguimiento de materiales e incidentes"
+          "1 obra activa",
+          "Hasta 5 usuarios",
+          "Materiales, personal, tareas e incidentes"
         ]
       },
       {
-        "label": "SEGUIMIENTO DEL PROYECTO",
-        "title": "Contratante",
-        "text": "Para quienes necesitan consultar la información de sus obras y conocer el trabajo registrado por el equipo.",
+        "label": "PARA CRECER",
+        "title": "Profesional",
+        "price": "S/ 99",
+        "text": "Coordina varios proyectos y mantén a tu equipo conectado.",
         "features": [
-          "Consulta de las obras asignadas",
-          "Visibilidad de personal y materiales",
-          "Consulta de maquinaria e incidentes"
+          "Hasta 3 obras activas",
+          "Hasta 15 usuarios",
+          "Materiales, personal, tareas e incidentes"
+        ]
+      },
+      {
+        "label": "PARA ESCALAR",
+        "title": "Empresarial",
+        "price": "S/ 199",
+        "text": "Centraliza la información de más obras y equipos de trabajo.",
+        "features": [
+          "Hasta 10 obras activas",
+          "Hasta 50 usuarios",
+          "Materiales, personal, tareas e incidentes"
         ]
       }
     ]

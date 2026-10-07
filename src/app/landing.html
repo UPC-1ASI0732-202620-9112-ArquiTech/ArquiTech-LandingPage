@@ -7,7 +7,7 @@
       </h1>
       <p class="lead">{{ "hero.description" | translate }}</p>
       <div class="actions">
-        <a class="button secondary" href="#modes"
+        <a class="button secondary" href="#plans"
           >{{ "hero.demo" | translate }} <at-icon name="arrow"
         /></a>
       </div>
@@ -89,17 +89,18 @@
     </div>
   </div>
 </section>
-<section id="modes" class="section">
+<section id="plans" class="section">
   <div class="container">
     <div class="section-heading">
       <p class="eyebrow">{{ "modes.label" | translate }}</p>
       <h2>{{ "modes.title" | translate }}</h2>
     </div>
     <div class="cards mode-cards">
-      @for (mode of [0, 1]; track mode) {
+      @for (mode of [0, 1, 2]; track mode) {
         <article class="card mode-card">
           <span class="eyebrow">{{ "modes.items." + mode + ".label" | translate }}</span>
           <h3>{{ "modes.items." + mode + ".title" | translate }}</h3>
+          <div class="plan-price"><strong>{{ "modes.items." + mode + ".price" | translate }}</strong><span>{{ "modes.period" | translate }}</span></div>
           <p>{{ "modes.items." + mode + ".text" | translate }}</p>
           <ul>
             @for (item of [0, 1, 2]; track item) {
@@ -110,9 +111,7 @@
               </li>
             }
           </ul>
-          <a class="button" [href]="product.app"
-            >{{ "common.enter" | translate }}<at-icon name="arrow"
-          /></a>
+          <a class="button" href="#contact">{{ "modes.contact" | translate }} <at-icon name="arrow" /></a>
         </article>
       }
     </div>
@@ -200,6 +199,6 @@
     <p class="eyebrow">{{ "cta.label" | translate }}</p>
     <h2>{{ "cta.title" | translate }}</h2>
     <p>{{ "cta.description" | translate }}</p>
-    <a class="button" href="#modes">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
+    <a class="button" href="#plans">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
   </div>
 </section>

@@ -7,11 +7,11 @@ import { Subscription } from 'rxjs';
 export class LanguageService {
   private readonly translate = inject(TranslateService);
   private readonly document = inject(DOCUMENT);
-  readonly current = signal<'es' | 'en'>('es');
+  readonly current = signal<'es' | 'en'>('en');
   private readonly subscription: Subscription;
   constructor() {
     this.translate.addLangs(['es', 'en']);
-    this.translate.setDefaultLang('es');
+    this.translate.setDefaultLang('en');
     this.subscription = this.translate.onLangChange.subscribe((event) => {
       this.current.set(event.lang === 'en' ? 'en' : 'es');
       this.document.documentElement.lang = this.current();
@@ -26,7 +26,7 @@ export class LanguageService {
     } catch {
       /* Storage can be unavailable in private browsing. */
     }
-    this.translate.use(saved === 'en' ? 'en' : 'es');
+    this.translate.use(saved === 'es' ? 'es' : 'en');
   }
   toggle() {
     const next = this.current() === 'es' ? 'en' : 'es';

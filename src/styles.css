@@ -387,20 +387,16 @@ section[id] {
   width: 14px;
   height: 14px;
 }
-.mode-cards {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  max-width: 940px;
-  margin: auto;
-  gap: 32px;
-}
+.mode-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 1120px; margin: auto; gap: 24px; }
+.plan-price { display: flex; align-items: baseline; gap: 8px; margin-bottom: 18px; }
+.plan-price strong { font-size: 42px; line-height: 1.15; letter-spacing: -0.04em; color: var(--ink); }
+.plan-price span { font-size: 14px; color: var(--muted); }
 .mode-card h3 {
   margin: 0 0 16px;
   min-height: 0;
   font-size: 27px;
 }
-.mode-card > p {
-  min-height: 5em;
-}
+.mode-card > p { min-height: 3.3em; }
 .mode-card ul {
   list-style: none;
   padding: 0;
@@ -589,6 +585,7 @@ section[id] {
   }
 }
 @media (max-width: 800px) {
+  .mode-cards { grid-template-columns: 1fr; max-width: 460px; }
   .hero-grid,
   .product-grid,
   .purpose-grid {

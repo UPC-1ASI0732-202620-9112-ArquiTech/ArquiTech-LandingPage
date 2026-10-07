@@ -27,9 +27,9 @@ describe('ArquiTech landing shell', () => {
   it('persists the language and updates the document language', () => {
     const language = TestBed.inject(LanguageService);
     language.toggle();
-    expect(language.current()).toBe('en');
-    expect(document.documentElement.lang).toBe('en');
-    expect(localStorage.getItem('arquitech-language')).toBe('en');
+    expect(language.current()).toBe('es');
+    expect(document.documentElement.lang).toBe('es');
+    expect(localStorage.getItem('arquitech-language')).toBe('es');
     language.destroy();
   });
 
