@@ -811,3 +811,8 @@ section[id] {
     transition: none !important;
   }
 }
+
+.legal-updated { font-weight: 600; margin-bottom: 24px; }
+.legal-references { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; }
+.legal-references h2 { flex-basis: 100%; }
+.legal-references a { color: var(--accent); text-decoration: underline; overflow-wrap: anywhere; }

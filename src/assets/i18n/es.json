@@ -194,32 +194,78 @@
       ]
     },
     "terms": {
-      "title": "Términos y condiciones",
-      "intro": "Estos términos explican el uso del sitio informativo de ArquiTech y el acceso a sus recursos públicos.",
+      "title": "Términos y Condiciones",
+      "intro": "Acuerdo SaaS para el servicio de gestión de proyectos de construcción ArquiTech.",
+      "updated": "Última actualización: octubre de 2026",
+      "references": "Referencias legales y profesionales",
       "sections": [
         {
-          "title": "1. Propósito informativo",
-          "text": "La landing comunica la propuesta, los perfiles de uso y el contexto académico de ArquiTech. La información no constituye una oferta comercial ni una garantía de resultados, plazos o disponibilidad."
+          "title": "1. Finalidad del servicio",
+          "text": "ArquiTech es una plataforma de Software como Servicio (SaaS) para gestionar proyectos de construcción. Estos términos cubren la Landing Page, la aplicación Web y la aplicación Mobile y el uso de registros de obras, materiales, trabajadores, asistencia, tareas, maquinaria e incidentes. El acceso está sujeto a estos términos y a las condiciones acordadas con la organización cliente. Consultar esta página pública no contrata una suscripción."
         },
         {
-          "title": "2. Uso adecuado",
-          "text": "Utiliza el sitio y sus enlaces de forma responsable. No intentes alterar su funcionamiento, introducir contenido malicioso o utilizar los recursos para perjudicar al equipo o a otras personas."
+          "title": "2. Usuarios y roles",
+          "text": "Los roles principales son Supervisor y Contractor. El Supervisor gestiona información únicamente de los proyectos y operaciones para los que está autorizado. El Contractor consulta información según los proyectos asignados y los permisos de consulta definidos. Un rol no concede acceso a proyectos de otra organización ni permite acciones fuera de sus permisos. La organización cliente es responsable de autorizar a sus usuarios."
         },
         {
-          "title": "3. Contenido y autoría",
-          "text": "La marca, los textos y los recursos del proyecto corresponden a sus autores y titulares respectivos. La presencia de tecnologías o plataformas externas describe el ecosistema técnico y no implica alianza, patrocinio ni certificación."
+          "title": "3. Derechos de los usuarios",
+          "text": "Los usuarios autorizados pueden acceder a las funciones e información permitidas por su rol, consultar públicamente estos términos en inglés o español, solicitar soporte y reportar errores o problemas de seguridad. Pueden solicitar la corrección de información inexacta y ejercer sus derechos sobre datos personales. Las organizaciones pueden solicitar la recuperación de su propia información de proyectos mediante el canal de contacto, sujeta a verificación de identidad, la legislación aplicable y las capacidades disponibles del servicio."
         },
         {
-          "title": "4. Enlaces externos",
-          "text": "Los enlaces a la aplicación y las redes sociales llevan a servicios independientes. Su uso está sujeto a sus propios términos y políticas. Los iconos sociales enlazan los sitios oficiales de las plataformas, no cuentas del proyecto."
+          "title": "4. Obligaciones de los usuarios",
+          "text": "Los usuarios deben proporcionar información veraz, proteger sus credenciales, usar cuentas individuales, cerrar sesión en dispositivos compartidos y reportar oportunamente posibles accesos no autorizados. Deben respetar los permisos de las obras, mantener registros razonablemente exactos y tratar los datos personales de trabajadores y otras personas con una base legal adecuada. La organización cliente debe supervisar la autorización de cuentas y conservar los registros y respaldos necesarios para sus obligaciones profesionales y legales."
         },
         {
-          "title": "5. Disponibilidad y cambios",
-          "text": "El sitio puede cambiar o estar temporalmente fuera de servicio por mantenimiento o por decisiones del proveedor de alojamiento. El proyecto evoluciona durante el curso; los requisitos y las capacidades documentadas pueden actualizarse."
+          "title": "5. Restricciones",
+          "text": "Está prohibido compartir cuentas o credenciales, acceder sin autorización a proyectos ajenos, eludir permisos, explorar o vulnerar la seguridad, introducir malware, interrumpir la infraestructura o cargar contenido ilegal, malicioso, discriminatorio o que infrinja derechos. No se permite la ingeniería inversa, descompilación o redistribución del software, salvo lo permitido por normas imperativas. Los reportes responsables de seguridad deben evitar exponer datos personales o interrumpir el servicio."
         },
         {
-          "title": "6. Información del proyecto",
-          "text": "Foundex desarrolla ArquiTech como proyecto académico. Consulta la presentación del producto y las preguntas frecuentes para conocer su alcance. Esta página recoge los términos vigentes del sitio informativo."
+          "title": "6. Suscripción y plan del servicio",
+          "text": "ArquiTech utiliza un modelo SaaS con un único plan de servicio. Las funciones, precio, período de facturación y condiciones del servicio son los comunicados y acordados con la organización cliente; estos términos no crean planes adicionales, cobros ni renovaciones automáticas. Todo cambio comercial requiere comunicación previa conforme al acuerdo y la ley aplicables. La implementación académica actual no establece por sí misma un servicio de pagos o facturación."
+        },
+        {
+          "title": "7. Disponibilidad y soporte",
+          "text": "El servicio puede interrumpirse por mantenimiento, actualizaciones, problemas de red o proveedores de infraestructura. ArquiTech no promete operación ininterrumpida ni un tiempo de respuesta específico, salvo acuerdo expreso. Envíe solicitudes de soporte e incidentes a contacto@arquitech.com con contexto suficiente para investigarlos, sin enviar contraseñas. Cuando sea razonablemente posible, se comunicarán a las organizaciones afectadas las interrupciones previstas y los incidentes relevantes."
+        },
+        {
+          "title": "8. Protección de datos",
+          "text": "Los datos personales deben tratarse considerando la Ley N.° 29733 del Perú, Ley de Protección de Datos Personales, y su reglamentación aplicable. El tratamiento debe tener una base legal y limitarse a las finalidades necesarias del servicio, con medidas adecuadas de confidencialidad y seguridad. Las personas pueden ejercer los derechos de acceso, rectificación, cancelación y oposición (ARCO) escribiendo a contacto@arquitech.com e identificando su solicitud; la verificación debe ser proporcional. Las solicitudes se atenderán conforme a los requisitos legales aplicables. La organización cliente conserva la responsabilidad sobre la recopilación y uso lícitos de los datos que proporciona. El aviso de privacidad de la Landing explica por separado el almacenamiento del navegador y los enlaces externos."
+        },
+        {
+          "title": "9. Propiedad de la información del cliente",
+          "text": "La información de proyectos proporcionada por el cliente pertenece a la organización cliente, sujeta a los derechos de las personas involucradas. ArquiTech la utiliza para prestar, mantener y proteger el servicio, o cuando la ley lo exige; ello no transfiere su propiedad. ArquiTech no vende información de proyectos como parte de su modelo de negocio. La divulgación se limita a usuarios autorizados, proveedores necesarios con salvaguardas adecuadas o requerimientos legales."
+        },
+        {
+          "title": "10. Propiedad intelectual",
+          "text": "El software, la marca y el contenido original de ArquiTech pertenecen a sus respectivos titulares. Los clientes reciben un permiso limitado de uso del servicio para la gestión autorizada de construcción durante su período de acceso acordado, no la propiedad del software. El contenido del cliente sigue siendo suyo. El software y los recursos de terceros conservan sus propias licencias. Las referencias a tecnologías u organizaciones no implican patrocinio ni certificación."
+        },
+        {
+          "title": "11. Limitación de responsabilidad",
+          "text": "ArquiTech apoya el registro y la coordinación; no reemplaza el criterio técnico, la revisión de ingeniería, las inspecciones de obra, los deberes de seguridad ocupacional ni las responsabilidades profesionales. Los usuarios deben verificar la información antes de tomar decisiones constructivas, financieras o de seguridad. En la medida permitida por la legislación peruana, ArquiTech no responde por pérdidas indirectas causadas por registros inexactos del cliente, uso no autorizado o fallas de servicios externos. Ninguna cláusula excluye responsabilidades o derechos que legalmente no puedan excluirse, incluidos los derechos aplicables del consumidor."
+        },
+        {
+          "title": "12. Suspensión y terminación",
+          "text": "El acceso puede suspenderse ante una amenaza de seguridad fundamentada, uso ilícito o incumplimiento sustancial de estos términos, con aviso y oportunidad de subsanar cuando corresponda. Puede ser necesaria una acción protectora inmediata para evitar daños. El cliente puede solicitar la terminación mediante el canal de contacto según las condiciones acordadas. La recuperación, conservación o eliminación de información se coordinará con la organización y las obligaciones legales aplicables; la terminación no autoriza automáticamente su conservación indefinida ni su venta."
+        },
+        {
+          "title": "13. Cambios en estos términos",
+          "text": "La versión publicada incluye la fecha de última actualización. Los cambios sustanciales se comunicarán mediante el servicio o el canal acordado con el cliente antes de entrar en vigor cuando sea exigible. No anulan derechos legales imperativos ni modifican condiciones comerciales pactadas por separado sin el acuerdo correspondiente. Los usuarios pueden contactar a ArquiTech para solicitar aclaraciones. El inglés es el idioma de visualización predeterminado y el español ofrece el mismo contenido."
+        },
+        {
+          "title": "14. Responsabilidad ética y profesional",
+          "text": "El desarrollo y uso de ArquiTech se orientan por los principios de ACM, IEEE y el Colegio de Ingenieros del Perú (CIP): seguridad y bienestar públicos, prevención de daños, honestidad, competencia, privacidad, confidencialidad, equidad y respeto a la propiedad intelectual. Los usuarios no deben falsificar registros de seguridad, ocultar incidentes ni utilizar la plataforma para discriminar. Ingenieros y profesionales de la construcción conservan la responsabilidad sobre sus decisiones, obligaciones legales y códigos profesionales. Las inquietudes éticas y vulnerabilidades pueden reportarse mediante el canal de contacto. Estas referencias expresan alineación con principios, no certificación, respaldo ni afiliación institucional."
+        },
+        {
+          "title": "15. Servicios externos",
+          "text": "El alojamiento, la infraestructura, los servicios del navegador y los enlaces externos pueden depender de proveedores independientes con sus propios términos y políticas de privacidad. ArquiTech debe considerar salvaguardas adecuadas cuando estos proveedores traten información del cliente, incluidas transferencias internacionales cuando corresponda. Sus interrupciones pueden afectar la disponibilidad. Los enlaces sociales de la Landing dirigen a los sitios públicos de los proveedores y no necesariamente identifican cuentas de ArquiTech. Revise sus políticas antes de compartir información."
+        },
+        {
+          "title": "16. Legislación aplicable",
+          "text": "Estos términos se rigen por las leyes del Perú. Las partes procurarán primero una solución de buena fe mediante el canal de contacto. Las controversias no resueltas corresponden a las autoridades y tribunales peruanos competentes, sin restringir los mecanismos imperativos de protección del consumidor ni el derecho a acudir a la Autoridad Nacional de Protección de Datos Personales u otra autoridad competente."
+        },
+        {
+          "title": "17. Contacto",
+          "text": "Contacte al equipo de ArquiTech en contacto@arquitech.com, Lima, Perú, para soporte, consultas sobre estos términos, solicitudes de información del cliente, derechos ARCO y reportes éticos o de seguridad. Incluya su organización y el motivo de la solicitud, pero nunca envíe contraseñas. Este es el canal de contacto ya publicado por el proyecto."
         }
       ]
     }

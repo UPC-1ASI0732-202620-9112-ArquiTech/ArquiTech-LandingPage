@@ -37,7 +37,7 @@ describe('ArquiTech landing shell', () => {
     const fixture = TestBed.createComponent(AppComponent);
     await TestBed.inject(Router).navigateByUrl('/terms');
     fixture.detectChanges();
-    expect(fixture.nativeElement.querySelectorAll('.legal-page section').length).toBe(6);
+    expect(fixture.nativeElement.querySelectorAll('.legal-page section').length).toBe(17);
     expect(fixture.nativeElement.querySelector('header')).toBeTruthy();
     expect(fixture.nativeElement.querySelector('footer')).toBeTruthy();
   });

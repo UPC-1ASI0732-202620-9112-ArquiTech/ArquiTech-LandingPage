@@ -12,5 +12,5 @@ import { PRODUCT } from './product';
 export class LegalComponent {
   readonly page = inject(ActivatedRoute).snapshot.data['page'] as string;
   readonly product = PRODUCT;
-  readonly sections = [0, 1, 2, 3, 4, 5];
+  readonly sections = Array.from({ length: this.page === 'terms' ? 17 : 6 }, (_, index) => index);
 }
