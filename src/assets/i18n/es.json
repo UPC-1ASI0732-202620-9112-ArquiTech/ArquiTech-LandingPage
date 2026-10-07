@@ -16,14 +16,14 @@
     "benefits": "Beneficios",
     "product": "Producto",
     "team": "Nosotros",
-    "plans": "Planes"
+    "plans": "Plan del servicio"
   },
   "hero": {
     "label": "GESTIÓN DE OBRAS · ARQUITECH",
     "title": "Tu obra organizada.",
     "highlight": "Tus decisiones, claras.",
     "description": "Reúne materiales, personal y seguimiento de tus proyectos en una misma plataforma. Información accesible para quienes supervisan la obra y quienes necesitan conocer su avance.",
-    "demo": "Ver planes",
+    "demo": "Ver el plan del servicio",
     "note": "Para supervisores y contratantes de pequeñas y medianas empresas.",
     "imageAlt": "Profesional revisando planos de construcción junto a un casco de seguridad.",
     "visualTitle": "Del campo a la oficina",
@@ -94,42 +94,18 @@
     "external": "Ver en YouTube"
   },
   "modes": {
-    "label": "PLANES DE SUSCRIPCIÓN",
-    "title": "Elige el plan para tu próxima obra.",
-    "contact": "Consultar plan",
-    "period": "/ mes",
+    "label": "PLAN DEL SERVICIO SAAS",
+    "title": "Un único plan para gestionar tu construcción.",
+    "contact": "Consultar sobre el servicio",
     "items": [
       {
-        "label": "PARA EMPEZAR",
-        "title": "Esencial",
-        "price": "S/ 49",
-        "text": "Organiza la operación de tu primera obra en un solo lugar.",
+        "label": "PLAN ÚNICO",
+        "title": "ArquiTech",
+        "text": "Gestiona y consulta proyectos de construcción con acceso según los permisos de Supervisor y Contractor. Las condiciones comerciales se acuerdan con tu organización.",
         "features": [
-          "1 obra activa",
-          "Hasta 5 usuarios",
-          "Materiales, personal, tareas e incidentes"
-        ]
-      },
-      {
-        "label": "PARA CRECER",
-        "title": "Profesional",
-        "price": "S/ 99",
-        "text": "Coordina varios proyectos y mantén a tu equipo conectado.",
-        "features": [
-          "Hasta 3 obras activas",
-          "Hasta 15 usuarios",
-          "Materiales, personal, tareas e incidentes"
-        ]
-      },
-      {
-        "label": "PARA ESCALAR",
-        "title": "Empresarial",
-        "price": "S/ 199",
-        "text": "Centraliza la información de más obras y equipos de trabajo.",
-        "features": [
-          "Hasta 10 obras activas",
-          "Hasta 50 usuarios",
-          "Materiales, personal, tareas e incidentes"
+          "Información de proyectos y acceso autorizado por rol",
+          "Materiales, trabajadores, asistencia, tareas, maquinaria e incidentes",
+          "Acceso Web y Mobile al mismo servicio SaaS"
         ]
       }
     ]
