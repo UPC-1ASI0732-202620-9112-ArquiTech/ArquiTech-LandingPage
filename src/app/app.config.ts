@@ -11,7 +11,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { routes } from './app.routes';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+  // Refresh the public agreement and plan copy for returning visitors too.
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json?v=saas-2026-10');
 }
 export const appConfig: ApplicationConfig = {
   providers: [
