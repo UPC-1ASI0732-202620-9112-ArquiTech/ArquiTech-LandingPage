@@ -1,6 +1,6 @@
-// Current report, section 5.2: published frontend. No commercial plans documented.
+// Public ArquiTech application and project resources.
 export const PRODUCT = {
-  app: 'https://precious-bavarois-d27735.netlify.app/',
+  app: 'https://arquitech-frontendweb.echacaliazaminaya.workers.dev/',
   report: 'https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Report',
   community: 'https://github.com/UPC-1ASI0732-202620-9112-ArquiTech',
   video: 'https://www.youtube.com/watch?v=k3Z0771Au1Y',
