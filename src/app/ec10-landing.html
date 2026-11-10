@@ -1,31 +1,18 @@
 @if (variant === 'A') {
   <at-landing [fragmentBase]="fragmentBase" />
 } @else {
-  <section class="ec10-hero" id="ec10">
-    <div class="container ec10-wrap">
-      <p class="eyebrow">ARQUITECH - EC10 / VARIANTE B</p>
-      <h1>La información de tu obra, <span>cuando la necesitas.</span></h1>
-      <p class="lead">Elige tu rol para ver cómo ArquiTech puede ayudarte y solicita una demostración.</p>
-      <div class="ec10-segments" role="group" aria-label="Selecciona tu rol">
-        <button type="button" [class.is-active]="segment() === 'supervisor'"
-          [attr.aria-pressed]="segment() === 'supervisor'"
-          (click)="setSegment('supervisor')">Soy supervisor</button>
-        <button type="button" [class.is-active]="segment() === 'contractor'"
-          [attr.aria-pressed]="segment() === 'contractor'"
-          (click)="setSegment('contractor')">Soy contratante</button>
-      </div>
-      @if (segment() === 'supervisor') {
-        <div class="ec10-benefit" aria-live="polite">
-          <h2>Menos tiempo registrando; más tiempo supervisando.</h2>
-          <p>Consolida materiales, asistencia, tareas e incidencias por proyecto. Consulta la información de cada jornada y genera reportes semanales.</p>
-        </div>
-      } @else {
-        <div class="ec10-benefit" aria-live="polite">
-          <h2>Consulta el avance de tu obra sin depender de mensajes.</h2>
-          <p>Revisa el estado de tus proyectos, sus incidencias y reportes semanales desde un mismo entorno.</p>
-        </div>
-      }
-      <form id="demo" class="ec10-form" (ngSubmit)="openRequest()">
+  <at-landing [fragmentBase]="fragmentBase" [personalized]="true" [segment]="segment()">
+    <div ec10-segments class="ec10-segments" role="group" aria-label="Selecciona tu rol">
+      <button type="button" [class.is-active]="segment() === 'supervisor'"
+        [attr.aria-pressed]="segment() === 'supervisor'"
+        (click)="setSegment('supervisor')">Soy supervisor</button>
+      <button type="button" [class.is-active]="segment() === 'contractor'"
+        [attr.aria-pressed]="segment() === 'contractor'"
+        (click)="setSegment('contractor')">Soy contratante</button>
+    </div>
+    <section ec10-form-slot id="demo" class="ec10-demo-section section surface">
+      <div class="container ec10-demo-wrap">
+        <form class="ec10-form" (ngSubmit)="openRequest()">
         <h2>Solicitar demostración</h2>
         <p>Te ayudaremos a conocer las funcionalidades relevantes para tu rol.</p>
         <label>Organización
@@ -44,7 +31,7 @@
         }
         <small>Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales.</small>
       </form>
-    </div>
-  </section>
-  <section at-landing-plans id="plans" class="section" [contactHref]="fragmentBase + '#demo'"></section>
+      </div>
+    </section>
+  </at-landing>
 }
