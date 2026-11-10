@@ -64,7 +64,7 @@ export class Ec10LandingComponent {
   }
 
   private track(type: string): void {
-    // Local-only instrumentation for simulated visits: never claims real leads.
+    // Store interaction events locally; these do not confirm received requests.
     const entry: FunnelEvent = {
       type, variant: this.variant, visitorId: this.visitorId,
       at: new Date().toISOString(), segment: this.variant === 'B' ? this.segment() : null,
