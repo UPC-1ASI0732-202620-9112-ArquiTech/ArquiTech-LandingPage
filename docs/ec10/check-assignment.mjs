@@ -20,7 +20,7 @@ async function verify({ id, variant, seed }) {
   const { page, target, logs, startedAt, start } = session;
   let initial, reloaded, newTab, error;
   const marker = variant === 'A' ? 'at-landing #home h1' : '.ec10-form';
-  const opposite = variant === 'A' ? '.ec10-form' : 'at-landing';
+  const opposite = variant === 'A' ? '.ec10-form' : '.ec10-hero-short';
   const expectedView = (event) => {
     assert.equal(event.type, 'view');
     assert.equal(event.variant, variant);
@@ -41,6 +41,10 @@ async function verify({ id, variant, seed }) {
     expectedState(initial, 1);
     assert.ok(await target.locator(marker).isVisible());
     assert.equal(await target.locator(opposite).count(), 0);
+    for (const section of ['#home', '#value', '#benefits', '#product', '#plans', '#team', '#trust', '#faq']) {
+      assert.equal(await target.locator('at-landing ' + section).count(), 1, section);
+    }
+    assert.equal(await target.locator('.ec10-form').count(), variant === 'B' ? 1 : 0);
     await page.reload({ waitUntil: 'domcontentloaded' });
     await page.locator(marker).waitFor();
     reloaded = await session.state();
