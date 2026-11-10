@@ -100,10 +100,12 @@ try {
     const supervisor = target.getByRole('button', { name: 'Soy supervisor' });
     const contractor = target.getByRole('button', { name: 'Soy contratante' });
     assert.equal(await supervisor.getAttribute('aria-pressed'), 'true');
+    assert.match(await target.locator('#home h1').innerText(), /Menos tiempo registrando/);
     assert.match(await target.locator('.ec10-benefit').innerText(), /Menos tiempo registrando/);
     await contractor.click();
     assert.equal(await contractor.getAttribute('aria-pressed'), 'true');
     assert.equal(await supervisor.getAttribute('aria-pressed'), 'false');
+    assert.match(await target.locator('#home h1').innerText(), /Consulta el avance/);
     assert.match(await target.locator('.ec10-benefit').innerText(), /Consulta el avance/);
     await supervisor.click();
     assert.equal(await supervisor.getAttribute('aria-pressed'), 'true');
@@ -164,7 +166,10 @@ try {
     const before = await state();
     await target.locator('#main-navigation a[href$="#plans"]').click();
     await verifyAnchor(page, '/experiment/ec10', '?testVariant=B', 'plans', '#plans h2');
-    assert.equal(await target.locator('at-landing').count(), 0);
+    assert.equal(await target.locator('at-landing').count(), 1);
+    for (const section of ['#home', '#value', '#benefits', '#product', '#plans', '#team', '#trust', '#faq']) {
+      assert.equal(await target.locator('at-landing ' + section).count(), 1, section);
+    }
     assert.equal(await target.locator('#plans .mode-card li').count(), 3);
     await target.locator('#plans .mode-card .button').click();
     await verifyAnchor(page, '/experiment/ec10', '?testVariant=B', 'demo', '#demo h2');
