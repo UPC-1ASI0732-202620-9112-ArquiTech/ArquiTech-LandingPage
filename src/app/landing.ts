@@ -10,9 +10,12 @@ import { PRODUCT, TEAM } from './product';
   standalone: true,
   imports: [TranslateModule, IconComponent, LandingPlansComponent],
   templateUrl: './landing.html',
+  styleUrl: './landing-experiment.css',
 })
 export class LandingComponent {
   readonly fragmentBase = input('');
+  readonly personalized = input(false);
+  readonly segment = input<'supervisor' | 'contractor'>('supervisor');
   readonly language = inject(LanguageService);
   readonly product = PRODUCT;
   readonly team = TEAM;
