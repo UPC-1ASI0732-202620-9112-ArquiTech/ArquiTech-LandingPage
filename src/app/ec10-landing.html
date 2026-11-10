@@ -1,0 +1,37 @@
+@if (variant === 'A') {
+  <at-landing [fragmentBase]="fragmentBase" />
+} @else {
+  <at-landing [fragmentBase]="fragmentBase" [personalized]="true" [segment]="segment()">
+    <div ec10-segments class="ec10-segments" role="group" aria-label="Selecciona tu rol">
+      <button type="button" [class.is-active]="segment() === 'supervisor'"
+        [attr.aria-pressed]="segment() === 'supervisor'"
+        (click)="setSegment('supervisor')">Soy supervisor</button>
+      <button type="button" [class.is-active]="segment() === 'contractor'"
+        [attr.aria-pressed]="segment() === 'contractor'"
+        (click)="setSegment('contractor')">Soy contratante</button>
+    </div>
+    <section ec10-form-slot id="demo" class="ec10-demo-section section surface">
+      <div class="container ec10-demo-wrap">
+        <form class="ec10-form" (ngSubmit)="openRequest()">
+        <h2>Solicitar demostración</h2>
+        <p>Te ayudaremos a conocer las funcionalidades relevantes para tu rol.</p>
+        <label>Organización
+          <input type="text" autocomplete="organization" required maxlength="90"
+            [ngModel]="company()" (ngModelChange)="company.set($event)" name="company" placeholder="Nombre de organización" />
+        </label>
+        <label>Correo de contacto
+          <input type="email" autocomplete="email" required maxlength="120"
+            [ngModel]="contactEmail()" (ngModelChange)="contactEmail.set($event)" name="email" placeholder="correo@organizacion.com" />
+        </label>
+        <button class="button" type="submit" [disabled]="submitting()">Preparar solicitud de demostración</button>
+        @if (error()) { <p class="ec10-error" role="alert">{{ error() }}</p> }
+        @if (mailLink()) {
+          <p class="ec10-disclaimer">Se ha preparado un correo en tu aplicación de email. La solicitud solo se enviará si confirmas el envío allí.</p>
+          <a [href]="mailLink()" class="ec10-mail-link">Volver a abrir el correo preparado</a>
+        }
+        <small>Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales.</small>
+      </form>
+      </div>
+    </section>
+  </at-landing>
+}

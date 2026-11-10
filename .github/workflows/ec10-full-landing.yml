@@ -1,0 +1,58 @@
+name: EC10 Full Landing Browser Regression
+
+on:
+  push:
+    branches:
+      - experiment/ab-evaluation
+    paths:
+      - 'src/app/**'
+      - 'src/styles.css'
+      - 'docs/ec10/check-assignment.mjs'
+      - 'docs/ec10/check-functional.mjs'
+      - 'docs/ec10/browser-harness.mjs'
+      - '.github/workflows/ec10-full-landing.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser:
+    name: EC10 A/B browser verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install project and browser tools
+        run: |
+          npm ci
+          npm install --no-save playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Start isolated Angular server
+        run: |
+          npm start -- --host 127.0.0.1 --port 4300 > "${RUNNER_TEMP}/ec10-server.log" 2>&1 &
+          curl --fail --silent --show-error --retry 45 --retry-connrefused --retry-delay 2 http://127.0.0.1:4300/ > /dev/null
+      - name: Verify 400 seeded assignments and complete A/B pages
+        env:
+          EC10_PLAYWRIGHT_PACKAGE: package.json
+          EC10_OUTPUT: ${{ runner.temp }}/ec10-full-landing
+        run: node docs/ec10/check-assignment.mjs
+      - name: Verify EC10 navigation, role benefits and contact paths
+        env:
+          EC10_PLAYWRIGHT_PACKAGE: package.json
+          EC10_OUTPUT: ${{ runner.temp }}/ec10-full-landing
+        run: node docs/ec10/check-functional.mjs
+      - name: Upload new regression evidence separately from historical results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ec10-full-landing-regression
+          path: |
+            ${{ runner.temp }}/ec10-full-landing/
+            ${{ runner.temp }}/ec10-server.log
+          if-no-files-found: warn
+          retention-days: 30

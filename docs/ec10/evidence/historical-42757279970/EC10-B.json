@@ -1,0 +1,2809 @@
+{
+  "experiment": "EC10",
+  "condition": "B",
+  "coverage": "200 isolated browser visits",
+  "result_kind": "automated-browser-technical-interactions",
+  "qualification": "Opening a mailto draft is not a sent commercial lead. No actual conversion or acquisition cost is measured.",
+  "records": [
+    {
+      "id": "ec10-b-001",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:37.038Z",
+      "duration_ms": 1072,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": "B-ec10-b-001.png"
+    },
+    {
+      "id": "ec10-b-002",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:38.269Z",
+      "duration_ms": 935,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": "B-ec10-b-002.png"
+    },
+    {
+      "id": "ec10-b-003",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:39.369Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-004",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:40.229Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-005",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:41.087Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-006",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:41.946Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-007",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:42.821Z",
+      "duration_ms": 672,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-008",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:43.644Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-009",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:44.500Z",
+      "duration_ms": 659,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-010",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:45.329Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-011",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:46.182Z",
+      "duration_ms": 648,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-012",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:47.007Z",
+      "duration_ms": 713,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-013",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:47.876Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-014",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:48.735Z",
+      "duration_ms": 737,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-015",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:49.634Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-016",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:50.506Z",
+      "duration_ms": 728,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-017",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:51.391Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-018",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:52.251Z",
+      "duration_ms": 750,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-019",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:53.152Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-020",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:54.033Z",
+      "duration_ms": 686,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-021",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:54.888Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-022",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:55.763Z",
+      "duration_ms": 696,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-023",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:56.637Z",
+      "duration_ms": 657,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-024",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:57.447Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-025",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:45:58.315Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-026",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:45:59.181Z",
+      "duration_ms": 744,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-027",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:00.087Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-028",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:00.948Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-029",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:01.802Z",
+      "duration_ms": 660,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-030",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:02.613Z",
+      "duration_ms": 754,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-031",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:03.521Z",
+      "duration_ms": 673,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-032",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:04.352Z",
+      "duration_ms": 685,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-033",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:05.193Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-034",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:06.066Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-035",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:06.952Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-036",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:07.835Z",
+      "duration_ms": 717,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-037",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:08.719Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-038",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:09.597Z",
+      "duration_ms": 722,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-039",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:10.479Z",
+      "duration_ms": 715,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-040",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:11.347Z",
+      "duration_ms": 742,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-041",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:12.250Z",
+      "duration_ms": 730,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-042",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:13.138Z",
+      "duration_ms": 678,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-043",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:13.964Z",
+      "duration_ms": 743,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-044",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:14.868Z",
+      "duration_ms": 731,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-045",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:15.754Z",
+      "duration_ms": 653,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-046",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:16.592Z",
+      "duration_ms": 730,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-047",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:17.486Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-048",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:18.345Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-049",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:19.238Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-050",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:20.102Z",
+      "duration_ms": 750,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-051",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:21.003Z",
+      "duration_ms": 704,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-052",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:21.868Z",
+      "duration_ms": 749,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-053",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:22.776Z",
+      "duration_ms": 699,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-054",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:23.626Z",
+      "duration_ms": 725,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-055",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:24.505Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-056",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:25.364Z",
+      "duration_ms": 736,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-057",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:26.251Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-058",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:27.130Z",
+      "duration_ms": 652,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-059",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:27.934Z",
+      "duration_ms": 658,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-060",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:28.744Z",
+      "duration_ms": 722,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-061",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:29.621Z",
+      "duration_ms": 685,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-062",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:30.461Z",
+      "duration_ms": 721,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-063",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:31.357Z",
+      "duration_ms": 652,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-064",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:32.163Z",
+      "duration_ms": 737,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-065",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:33.058Z",
+      "duration_ms": 732,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-066",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:33.944Z",
+      "duration_ms": 678,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-067",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:34.783Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-068",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:35.650Z",
+      "duration_ms": 750,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-069",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:36.553Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-070",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:37.415Z",
+      "duration_ms": 734,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-071",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:38.304Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-072",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:39.161Z",
+      "duration_ms": 739,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-073",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:40.081Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-074",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:40.944Z",
+      "duration_ms": 727,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-075",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:41.838Z",
+      "duration_ms": 669,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-076",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:42.666Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-077",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:43.540Z",
+      "duration_ms": 703,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-078",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:44.400Z",
+      "duration_ms": 684,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-079",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:45.267Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-080",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:46.130Z",
+      "duration_ms": 686,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-081",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:46.984Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-082",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:47.846Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-083",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:48.749Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-084",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:49.611Z",
+      "duration_ms": 740,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-085",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:50.502Z",
+      "duration_ms": 722,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-086",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:51.384Z",
+      "duration_ms": 765,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-087",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:52.301Z",
+      "duration_ms": 657,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-088",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:53.119Z",
+      "duration_ms": 732,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-089",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:54.003Z",
+      "duration_ms": 687,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-090",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:54.847Z",
+      "duration_ms": 685,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-091",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:55.685Z",
+      "duration_ms": 729,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-092",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:56.606Z",
+      "duration_ms": 747,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-093",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:57.518Z",
+      "duration_ms": 741,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-094",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:46:58.415Z",
+      "duration_ms": 721,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-095",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:46:59.299Z",
+      "duration_ms": 691,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-096",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:00.143Z",
+      "duration_ms": 675,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-097",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:00.970Z",
+      "duration_ms": 691,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-098",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:01.850Z",
+      "duration_ms": 718,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-099",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:02.734Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-100",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:03.595Z",
+      "duration_ms": 771,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-101",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:04.517Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-102",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:05.384Z",
+      "duration_ms": 733,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-103",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:06.268Z",
+      "duration_ms": 639,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-104",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:07.064Z",
+      "duration_ms": 717,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-105",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:07.937Z",
+      "duration_ms": 703,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-106",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:08.798Z",
+      "duration_ms": 717,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-107",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:09.664Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-108",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:10.530Z",
+      "duration_ms": 750,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-109",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:11.437Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-110",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:12.309Z",
+      "duration_ms": 758,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-111",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:13.220Z",
+      "duration_ms": 737,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-112",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:14.110Z",
+      "duration_ms": 741,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-113",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:15.012Z",
+      "duration_ms": 679,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-114",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:15.850Z",
+      "duration_ms": 733,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-115",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:16.748Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-116",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:17.617Z",
+      "duration_ms": 766,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-117",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:18.538Z",
+      "duration_ms": 703,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-118",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:19.416Z",
+      "duration_ms": 700,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-119",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:20.271Z",
+      "duration_ms": 668,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-120",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:21.099Z",
+      "duration_ms": 733,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-121",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:21.991Z",
+      "duration_ms": 699,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-122",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:22.846Z",
+      "duration_ms": 673,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-123",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:23.679Z",
+      "duration_ms": 676,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-124",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:24.512Z",
+      "duration_ms": 721,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-125",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:25.394Z",
+      "duration_ms": 730,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-126",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:26.292Z",
+      "duration_ms": 730,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-127",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:27.186Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-128",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:28.048Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-129",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:28.945Z",
+      "duration_ms": 729,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-130",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:29.827Z",
+      "duration_ms": 729,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-131",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:30.720Z",
+      "duration_ms": 756,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-132",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:31.637Z",
+      "duration_ms": 732,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-133",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:32.532Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-134",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:33.404Z",
+      "duration_ms": 685,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-135",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:34.246Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-136",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:35.128Z",
+      "duration_ms": 738,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-137",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:36.024Z",
+      "duration_ms": 683,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-138",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:36.860Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-139",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:37.753Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-140",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:38.609Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-141",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:39.500Z",
+      "duration_ms": 656,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-142",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:40.310Z",
+      "duration_ms": 739,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-143",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:41.205Z",
+      "duration_ms": 701,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-144",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:42.064Z",
+      "duration_ms": 703,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-145",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:42.925Z",
+      "duration_ms": 697,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-146",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:43.776Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-147",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:44.649Z",
+      "duration_ms": 690,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-148",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:45.493Z",
+      "duration_ms": 689,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-149",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:46.341Z",
+      "duration_ms": 647,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-150",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:47.141Z",
+      "duration_ms": 741,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-151",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:48.046Z",
+      "duration_ms": 679,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-152",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:48.882Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-153",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:49.765Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-154",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:50.632Z",
+      "duration_ms": 738,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-155",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:51.537Z",
+      "duration_ms": 736,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-156",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:52.426Z",
+      "duration_ms": 738,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-157",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:53.319Z",
+      "duration_ms": 721,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-158",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:54.194Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-159",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:55.065Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-160",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:55.925Z",
+      "duration_ms": 750,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-161",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:56.876Z",
+      "duration_ms": 729,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-162",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:57.760Z",
+      "duration_ms": 736,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-163",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:47:58.654Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-164",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:47:59.516Z",
+      "duration_ms": 735,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-165",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:00.419Z",
+      "duration_ms": 738,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-166",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:01.316Z",
+      "duration_ms": 737,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-167",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:02.215Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-168",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:03.073Z",
+      "duration_ms": 759,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-169",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:03.996Z",
+      "duration_ms": 660,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-170",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:04.832Z",
+      "duration_ms": 732,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-171",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:05.717Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-172",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:06.593Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-173",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:07.479Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-174",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:08.359Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-175",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:09.227Z",
+      "duration_ms": 745,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-176",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:10.129Z",
+      "duration_ms": 735,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-177",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:11.015Z",
+      "duration_ms": 743,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-178",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:11.913Z",
+      "duration_ms": 734,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-179",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:12.799Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-180",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:13.659Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-181",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:14.532Z",
+      "duration_ms": 690,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-182",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:15.373Z",
+      "duration_ms": 756,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-183",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:16.308Z",
+      "duration_ms": 714,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-184",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:17.177Z",
+      "duration_ms": 736,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-185",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:18.088Z",
+      "duration_ms": 649,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-186",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:18.894Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-187",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:19.785Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-188",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:20.655Z",
+      "duration_ms": 692,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-189",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:21.502Z",
+      "duration_ms": 670,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-190",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:22.325Z",
+      "duration_ms": 704,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-191",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:23.211Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-192",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:24.075Z",
+      "duration_ms": 713,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-193",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:24.941Z",
+      "duration_ms": 698,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-194",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:25.796Z",
+      "duration_ms": 655,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-195",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:26.613Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-196",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:27.477Z",
+      "duration_ms": 754,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-197",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:28.381Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-198",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:29.243Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-199",
+      "variant": "B",
+      "status": "passed",
+      "segment": "supervisor",
+      "started_at": "2026-11-10T04:48:30.114Z",
+      "duration_ms": 675,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-b-200",
+      "variant": "B",
+      "status": "passed",
+      "segment": "contractor",
+      "started_at": "2026-11-10T04:48:30.944Z",
+      "duration_ms": 656,
+      "event_types": [
+        "view",
+        "segment_selected"
+      ],
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

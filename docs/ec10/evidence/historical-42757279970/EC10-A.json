@@ -1,0 +1,2609 @@
+{
+  "experiment": "EC10",
+  "condition": "A",
+  "coverage": "200 isolated browser visits",
+  "result_kind": "automated-browser-technical-interactions",
+  "qualification": "Opening a mailto draft is not a sent commercial lead. No actual conversion or acquisition cost is measured.",
+  "records": [
+    {
+      "id": "ec10-a-001",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:44.269Z",
+      "duration_ms": 1312,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": "A-ec10-a-001.png"
+    },
+    {
+      "id": "ec10-a-002",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:45.776Z",
+      "duration_ms": 1065,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": "A-ec10-a-002.png"
+    },
+    {
+      "id": "ec10-a-003",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:47.007Z",
+      "duration_ms": 656,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-004",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:47.824Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-005",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:48.692Z",
+      "duration_ms": 642,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-006",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:49.491Z",
+      "duration_ms": 700,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-007",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:50.369Z",
+      "duration_ms": 653,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-008",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:51.176Z",
+      "duration_ms": 698,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-009",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:52.027Z",
+      "duration_ms": 681,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-010",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:52.863Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-011",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:53.728Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-012",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:54.641Z",
+      "duration_ms": 713,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-013",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:55.506Z",
+      "duration_ms": 755,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-014",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:56.441Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-015",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:57.294Z",
+      "duration_ms": 708,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-016",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:58.153Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-017",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:59.012Z",
+      "duration_ms": 669,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-018",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:42:59.832Z",
+      "duration_ms": 712,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-019",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:00.695Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-020",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:01.576Z",
+      "duration_ms": 734,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-021",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:02.459Z",
+      "duration_ms": 718,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-022",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:03.327Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-023",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:04.192Z",
+      "duration_ms": 738,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-024",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:05.096Z",
+      "duration_ms": 635,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-025",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:05.891Z",
+      "duration_ms": 636,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-026",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:06.701Z",
+      "duration_ms": 685,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-027",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:07.557Z",
+      "duration_ms": 670,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-028",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:08.400Z",
+      "duration_ms": 697,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-029",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:09.278Z",
+      "duration_ms": 720,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-030",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:10.143Z",
+      "duration_ms": 812,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-031",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:11.130Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-032",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:12.014Z",
+      "duration_ms": 717,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-033",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:12.887Z",
+      "duration_ms": 761,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-034",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:13.817Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-035",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:14.673Z",
+      "duration_ms": 703,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-036",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:15.521Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-037",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:16.376Z",
+      "duration_ms": 666,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-038",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:17.195Z",
+      "duration_ms": 692,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-039",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:18.057Z",
+      "duration_ms": 693,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-040",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:18.902Z",
+      "duration_ms": 712,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-041",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:19.760Z",
+      "duration_ms": 679,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-042",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:20.609Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-043",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:21.481Z",
+      "duration_ms": 691,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-044",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:22.326Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-045",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:23.160Z",
+      "duration_ms": 712,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-046",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:24.027Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-047",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:24.878Z",
+      "duration_ms": 722,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-048",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:25.765Z",
+      "duration_ms": 687,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-049",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:26.612Z",
+      "duration_ms": 681,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-050",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:27.443Z",
+      "duration_ms": 675,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-051",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:28.265Z",
+      "duration_ms": 693,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-052",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:29.112Z",
+      "duration_ms": 681,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-053",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:29.984Z",
+      "duration_ms": 696,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-054",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:30.831Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-055",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:31.676Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-056",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:32.533Z",
+      "duration_ms": 695,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-057",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:33.382Z",
+      "duration_ms": 701,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-058",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:34.231Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-059",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:35.091Z",
+      "duration_ms": 682,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-060",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:35.927Z",
+      "duration_ms": 700,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-061",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:36.779Z",
+      "duration_ms": 740,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-062",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:37.675Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-063",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:38.557Z",
+      "duration_ms": 700,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-064",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:39.405Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-065",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:40.277Z",
+      "duration_ms": 704,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-066",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:41.144Z",
+      "duration_ms": 696,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-067",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:41.991Z",
+      "duration_ms": 684,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-068",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:42.824Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-069",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:43.696Z",
+      "duration_ms": 682,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-070",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:44.524Z",
+      "duration_ms": 680,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-071",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:45.359Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-072",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:46.226Z",
+      "duration_ms": 653,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-073",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:47.033Z",
+      "duration_ms": 750,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-074",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:47.953Z",
+      "duration_ms": 693,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-075",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:48.796Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-076",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:49.690Z",
+      "duration_ms": 699,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-077",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:50.540Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-078",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:51.382Z",
+      "duration_ms": 637,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-079",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:52.171Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-080",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:53.010Z",
+      "duration_ms": 681,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-081",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:53.838Z",
+      "duration_ms": 713,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-082",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:54.726Z",
+      "duration_ms": 696,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-083",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:55.579Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-084",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:56.456Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-085",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:57.335Z",
+      "duration_ms": 728,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-086",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:58.230Z",
+      "duration_ms": 646,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-087",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:59.030Z",
+      "duration_ms": 737,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-088",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:43:59.915Z",
+      "duration_ms": 648,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-089",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:00.714Z",
+      "duration_ms": 715,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-090",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:01.580Z",
+      "duration_ms": 636,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-091",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:02.368Z",
+      "duration_ms": 668,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-092",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:03.186Z",
+      "duration_ms": 736,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-093",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:04.074Z",
+      "duration_ms": 738,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-094",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:04.966Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-095",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:05.820Z",
+      "duration_ms": 717,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-096",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:06.710Z",
+      "duration_ms": 701,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-097",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:07.573Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-098",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:08.457Z",
+      "duration_ms": 680,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-099",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:09.294Z",
+      "duration_ms": 700,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-100",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:10.164Z",
+      "duration_ms": 731,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-101",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:11.049Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-102",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:11.907Z",
+      "duration_ms": 646,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-103",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:12.705Z",
+      "duration_ms": 676,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-104",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:13.533Z",
+      "duration_ms": 698,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-105",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:14.389Z",
+      "duration_ms": 732,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-106",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:15.290Z",
+      "duration_ms": 646,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-107",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:16.093Z",
+      "duration_ms": 714,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-108",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:16.954Z",
+      "duration_ms": 710,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-109",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:17.807Z",
+      "duration_ms": 695,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-110",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:18.650Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-111",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:19.500Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-112",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:20.355Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-113",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:21.228Z",
+      "duration_ms": 700,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-114",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:22.105Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-115",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:22.989Z",
+      "duration_ms": 731,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-116",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:23.892Z",
+      "duration_ms": 629,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-117",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:24.676Z",
+      "duration_ms": 699,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-118",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:25.527Z",
+      "duration_ms": 718,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-119",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:26.402Z",
+      "duration_ms": 691,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-120",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:27.239Z",
+      "duration_ms": 706,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-121",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:28.116Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-122",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:28.999Z",
+      "duration_ms": 692,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-123",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:29.841Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-124",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:30.730Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-125",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:31.604Z",
+      "duration_ms": 677,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-126",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:32.429Z",
+      "duration_ms": 684,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-127",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:33.271Z",
+      "duration_ms": 689,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-128",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:34.111Z",
+      "duration_ms": 669,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-129",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:34.938Z",
+      "duration_ms": 679,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-130",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:35.770Z",
+      "duration_ms": 690,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-131",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:36.615Z",
+      "duration_ms": 720,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-132",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:37.489Z",
+      "duration_ms": 696,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-133",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:38.337Z",
+      "duration_ms": 733,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-134",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:39.220Z",
+      "duration_ms": 636,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-135",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:40.008Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-136",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:40.872Z",
+      "duration_ms": 692,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-137",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:41.743Z",
+      "duration_ms": 723,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-138",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:42.618Z",
+      "duration_ms": 732,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-139",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:43.505Z",
+      "duration_ms": 699,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-140",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:44.359Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-141",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:45.225Z",
+      "duration_ms": 698,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-142",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:46.078Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-143",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:46.956Z",
+      "duration_ms": 665,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-144",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:47.775Z",
+      "duration_ms": 720,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-145",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:48.650Z",
+      "duration_ms": 653,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-146",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:49.456Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-147",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:50.304Z",
+      "duration_ms": 693,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-148",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:51.157Z",
+      "duration_ms": 703,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-149",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:52.017Z",
+      "duration_ms": 716,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-150",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:52.889Z",
+      "duration_ms": 704,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-151",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:53.741Z",
+      "duration_ms": 722,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-152",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:54.618Z",
+      "duration_ms": 727,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-153",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:55.496Z",
+      "duration_ms": 712,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-154",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:56.380Z",
+      "duration_ms": 688,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-155",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:57.227Z",
+      "duration_ms": 764,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-156",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:58.145Z",
+      "duration_ms": 724,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-157",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:59.052Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-158",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:44:59.923Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-159",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:00.812Z",
+      "duration_ms": 752,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-160",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:01.742Z",
+      "duration_ms": 656,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-161",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:02.561Z",
+      "duration_ms": 712,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-162",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:03.427Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-163",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:04.280Z",
+      "duration_ms": 709,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-164",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:05.140Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-165",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:06.009Z",
+      "duration_ms": 665,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-166",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:06.830Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-167",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:07.700Z",
+      "duration_ms": 722,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-168",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:08.577Z",
+      "duration_ms": 704,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-169",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:09.444Z",
+      "duration_ms": 718,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-170",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:10.316Z",
+      "duration_ms": 731,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-171",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:11.204Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-172",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:12.047Z",
+      "duration_ms": 742,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-173",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:12.945Z",
+      "duration_ms": 666,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-174",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:13.771Z",
+      "duration_ms": 638,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-175",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:14.571Z",
+      "duration_ms": 676,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-176",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:15.406Z",
+      "duration_ms": 743,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-177",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:16.299Z",
+      "duration_ms": 638,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-178",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:17.095Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-179",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:17.974Z",
+      "duration_ms": 701,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-180",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:18.852Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-181",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:19.726Z",
+      "duration_ms": 714,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-182",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:20.591Z",
+      "duration_ms": 687,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-183",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:21.432Z",
+      "duration_ms": 649,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-184",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:22.237Z",
+      "duration_ms": 727,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-185",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:23.114Z",
+      "duration_ms": 694,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-186",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:23.963Z",
+      "duration_ms": 644,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-187",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:24.757Z",
+      "duration_ms": 667,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-188",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:25.604Z",
+      "duration_ms": 729,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-189",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:26.491Z",
+      "duration_ms": 705,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-190",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:27.361Z",
+      "duration_ms": 693,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-191",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:28.229Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-192",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:29.090Z",
+      "duration_ms": 712,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-193",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:29.962Z",
+      "duration_ms": 711,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-194",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:30.831Z",
+      "duration_ms": 726,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-195",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:31.712Z",
+      "duration_ms": 702,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-196",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:32.572Z",
+      "duration_ms": 707,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-197",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:33.432Z",
+      "duration_ms": 719,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-198",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:34.312Z",
+      "duration_ms": 740,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-199",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:35.241Z",
+      "duration_ms": 698,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "id": "ec10-a-200",
+      "variant": "A",
+      "status": "passed",
+      "segment": null,
+      "started_at": "2026-11-10T04:45:36.097Z",
+      "duration_ms": 704,
+      "event_types": [
+        "view"
+      ],
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

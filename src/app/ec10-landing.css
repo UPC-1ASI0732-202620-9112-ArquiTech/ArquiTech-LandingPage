@@ -1,0 +1,15 @@
+/* EC10 role controls and demo form; full landing layout comes from at-landing. */
+.ec10-segments { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+.ec10-segments button { background: #fff; color: var(--ink); border: 2px solid var(--border); border-radius: 12px; padding: 12px 20px; font-weight: 700; }
+.ec10-segments button.is-active { color: var(--accent); border-color: var(--accent); background: #fff6f0; }
+.ec10-demo-section { min-height: 0; }
+.ec10-demo-wrap { display: flex; justify-content: center; }
+.ec10-form { width: min(100%, 720px); padding: 32px; border: 1px solid var(--border); border-radius: 16px; background: #fff; display: grid; gap: 16px; }
+.ec10-form h2 { font-size: clamp(25px, 2.5vw, 36px); }
+.ec10-form label { display: grid; gap: 6px; font-weight: 700; }
+.ec10-form input { border: 1px solid #c9d1d9; border-radius: 8px; height: 48px; padding: 0 12px; width: 100%; }
+.ec10-form .button { justify-self: start; }
+.ec10-form small, .ec10-disclaimer { color: var(--muted); font-size: .82rem; }
+.ec10-error { color: #9a2f08; background: #fff1e8; padding: 8px; border-radius: 8px; }
+.ec10-mail-link { color: var(--accent); text-decoration: underline; }
+@media(max-width:700px) { .ec10-form { padding: 20px; } .ec10-segments { flex-direction: column; } .ec10-segments button { width: 100%; } }

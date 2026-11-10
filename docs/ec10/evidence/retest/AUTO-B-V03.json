@@ -1,0 +1,216 @@
+{
+  "id": "AUTO-B-V03",
+  "variant": "B",
+  "profile": {
+    "id": "V03",
+    "segment": "supervisor",
+    "device": "mobile",
+    "intent": "request_information"
+  },
+  "goal": "Identifica cómo pedir una demostración de ArquiTech y deja preparada la acción de contacto local para tu organización. Usa tu rol si la página lo permite y detente antes de enviar cualquier mensaje.",
+  "organization": "Obra EC10 & QA",
+  "email": "ec10@example.invalid",
+  "decision": "El formulario dejó visible un enlace a un correo preparado para supervisor. Detengo la interacción en este punto.",
+  "browser": "157.0.8103.39",
+  "started_at": "2026-11-10T13:21:34.152Z",
+  "ended_at": "2026-11-10T13:22:19.640Z",
+  "duration_ms": 45488,
+  "state": {
+    "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+    "visitor": "7ad3d7e8-f33c-4b76-be5b-502439a6acc0",
+    "assignment": null,
+    "events": [
+      {
+        "type": "view",
+        "variant": "B",
+        "visitorId": "7ad3d7e8-f33c-4b76-be5b-502439a6acc0",
+        "at": "2026-11-10T13:21:37.509Z",
+        "segment": "supervisor"
+      },
+      {
+        "type": "mailto_intent",
+        "variant": "B",
+        "visitorId": "7ad3d7e8-f33c-4b76-be5b-502439a6acc0",
+        "at": "2026-11-10T13:22:13.178Z",
+        "segment": "supervisor"
+      }
+    ]
+  },
+  "draft": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20supervisor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Supervisor%20de%20obra%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A",
+  "snapshot": "- link \"Skip to content\":\n  - /url: \"#main\"\n- banner:\n  - link \"ArquiTech\":\n    - /url: /#home\n  - button \"Switch to Spanish\": EN\n  - button \"Open menu\"\n- main:\n  - paragraph: ARQUITECH - EC10 / VARIANTE B\n  - heading \"La información de tu obra, cuando la necesitas.\" [level=1]\n  - paragraph: Elige tu rol para ver cómo ArquiTech puede ayudarte y solicita una demostración.\n  - group \"Selecciona tu rol\":\n    - button \"Soy supervisor\" [pressed]\n    - button \"Soy contratante\"\n  - heading \"Menos tiempo registrando; más tiempo supervisando.\" [level=2]\n  - paragraph: Consolida materiales, asistencia, tareas e incidencias por proyecto. Consulta la información de cada jornada y genera reportes semanales.\n  - heading \"Solicitar demostración\" [level=2]\n  - paragraph: Te ayudaremos a conocer las funcionalidades relevantes para tu rol.\n  - text: Organización\n  - textbox \"Organización\":\n    - /placeholder: Nombre de organización\n    - text: Obra EC10 & QA\n  - text: Correo de contacto\n  - textbox \"Correo de contacto\":\n    - /placeholder: correo@organizacion.com\n    - text: ec10@example.invalid\n  - button \"Preparar solicitud de demostración\"\n  - paragraph: Se ha preparado un correo en tu aplicación de email. La solicitud solo se enviará si confirmas el envío allí.\n  - link \"Volver a abrir el correo preparado\":\n    - /url: mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20supervisor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Supervisor%20de%20obra%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A\n  - text: Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales.\n  - paragraph: SAAS SERVICE PLAN\n  - heading \"One plan for your construction management.\" [level=2]\n  - article:\n    - text: SINGLE PLAN\n    - heading \"ArquiTech\" [level=3]\n    - paragraph: Manage and follow construction projects with access based on Supervisor and Contractor permissions. Commercial conditions are agreed with your organization.\n    - list:\n      - listitem: Project information and authorized role-based access\n      - listitem: Materials, workers, attendance, tasks, machinery and incidents\n      - listitem: Web and Mobile access to the shared SaaS service\n    - link \"Ask about the service\":\n      - /url: /experiment/ec10?testVariant=B#demo\n- contentinfo:\n  - link \"ArquiTech\":\n    - /url: /#home\n  - paragraph: Organized construction information connecting supervisors and clients.\n  - heading \"Contact\" [level=3]\n  - link \"contacto@arquitech.com\":\n    - /url: mailto:contacto@arquitech.com\n  - text: Lima, Perú\n  - link \"+51 948 742 332\":\n    - /url: tel:+51948742332\n  - heading \"Follow us\" [level=3]\n  - link \"Facebook\":\n    - /url: https://www.facebook.com/\n  - link \"Instagram\":\n    - /url: https://www.instagram.com/\n  - link \"Twitter / X\":\n    - /url: https://x.com/\n  - text: Building with information. © 2026 ArquiTech\n  - link \"Privacy policy\":\n    - /url: /privacy\n  - link \"Terms and Conditions\":\n    - /url: /terms",
+  "clicks": [
+    {
+      "at": "2026-11-10T13:22:13.175Z",
+      "text": "Preparar solicitud de demostración",
+      "href": null,
+      "trusted": true,
+      "frame_url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B"
+    }
+  ],
+  "logs": {
+    "console": [
+      {
+        "type": "warning",
+        "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "log",
+        "text": "Angular is running in development mode."
+      },
+      {
+        "type": "error",
+        "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+      }
+    ],
+    "pageErrors": [],
+    "responses": [
+      {
+        "url": "http://127.0.0.1:4300/__ec10_test_frame__?variant=B",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@vite/client",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/styles.css",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/polyfills.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/main.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/chunk-DTBTSCP7.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316896734",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding-plans.ts%40LandingPlansComponent&t=1794316896736",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316896738",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316896741",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316896743",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/chunk-H3F5OWG7.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316897502",
+        "status": 200
+      }
+    ],
+    "blockedExternal": [],
+    "failedRequests": [
+      {
+        "url": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20supervisor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Supervisor%20de%20obra%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  },
+  "steps": 3,
+  "attempts": 1,
+  "screenshot": "AUTO-B-V03.png",
+  "trace": "AUTO-B-V03.zip"
+}

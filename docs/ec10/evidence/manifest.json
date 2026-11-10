@@ -1,0 +1,37 @@
+{
+  "experiment": "EC10",
+  "run_id": "2026-11-10-ec10-local",
+  "repository": "educmz/ArquiTech-LandingPage",
+  "branch": "experiment/ab-evaluation",
+  "application_commit": "abe5e10f7ee6d254eeaadb12a936814f0893e307",
+  "pr": "https://github.com/educmz/ArquiTech-LandingPage/pull/11",
+  "historical_ci": {
+    "runner_commit": "84362bd423f6a9a051394f5f9b72cddfb0d1afdf",
+    "run": "https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/42757279970",
+    "artifact": "https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/42757279970/artifacts/13736537034",
+    "A": { "correct": 200, "incorrect": 0 },
+    "B": { "correct": 200, "incorrect": 0 },
+    "included_in_new_totals": false
+  },
+  "plan_commit": "bad486e279e59d7af30dc80d1388a5e1b3d11ae9",
+  "metric_definitions_commit": "2e53a047c43d9e6330ab8e999b6ac872d5f0d85e",
+  "server_origin": "http://127.0.0.1:4300",
+  "server_mode": "Angular development server",
+  "browser": "Chrome Headless 157.0.8103.39",
+  "playwright": "1.63.0",
+  "locale": "es-PE",
+  "timezone": "America/Lima",
+  "data_kind": "synthetic",
+  "autonomous_driver": "OpenAI Codex (GPT-6 family), interactive accessibility observations",
+  "autonomous_verifier": "../verify-autonomous.mjs",
+  "autonomous_profiles": ["V03", "V04"],
+  "result_unit": "one evaluable case per CSV row, with historical visits and pilots reported separately",
+  "new_browser_results": {
+    "assignment": { "A": { "correct": 200, "incorrect": 0 }, "B": { "correct": 200, "incorrect": 0 } },
+    "functional": { "A": { "correct": 2, "incorrect": 2 }, "B": { "correct": 6, "incorrect": 1 } },
+    "autonomous": { "A": { "correct": 2, "incorrect": 0 }, "B": { "correct": 2, "incorrect": 0 } }
+  },
+  "angular_regression": { "correct": 6, "incorrect": 0, "build": "passed" },
+  "commercial_indicators": { "M11": null, "F03": null },
+  "publication_gate": "withheld: experimental route continuity failed"
+}

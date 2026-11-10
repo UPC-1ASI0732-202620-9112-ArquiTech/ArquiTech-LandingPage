@@ -1,0 +1,8 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="354.290595">
+<testsuite name="ec10-browser.spec.ts" timestamp="2026-11-10T04:42:42.737Z" hostname="" tests="2" failures="0" skipped="0" time="347.464" errors="0">
+<testcase name="EC10: A - route and visitor events" classname="ec10-browser.spec.ts" time="172.736">
+</testcase>
+<testcase name="EC10: B - route and visitor events" classname="ec10-browser.spec.ts" time="174.728">
+</testcase>
+</testsuite>
+</testsuites>

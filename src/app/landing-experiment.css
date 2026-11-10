@@ -1,0 +1,5 @@
+/* Benefits personalized in B while all original sections remain. */
+.ec10-benefit { border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0; background: #fff8f4; padding: 22px 28px; margin: 0 0 30px; }
+.ec10-benefit h3 { margin: 0 0 8px; min-height: 0; font-size: clamp(21px, 2vw, 28px); }
+.ec10-benefit p { max-width: 760px; }
+@media (max-width: 550px) { .ec10-benefit { padding: 18px; } }

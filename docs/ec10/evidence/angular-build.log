@@ -1,0 +1,21 @@
+npm notice run landingatt3@0.0.0 build
+npm notice run ng build
+> Building...
+√ Building...
+Initial chunk files   | Names         |  Raw size | Estimated transfer size
+chunk-P4O2KOKH.js     | -             | 156.70 kB |                45.89 kB
+main-VVDOD357.js      | main          | 112.38 kB |                28.77 kB
+polyfills-B6TNHZQ6.js | polyfills     |  34.58 kB |                11.32 kB
+styles-NPJEEYNF.css   | styles        |  11.16 kB |                 2.65 kB
+
+                      | Initial total | 314.81 kB |                88.64 kB
+
+Lazy chunk files      | Names         |  Raw size | Estimated transfer size
+chunk-VJAYQF7J.js     | ec10-landing  |  37.58 kB |                 9.15 kB
+
+Application bundle generation complete. [3.639 seconds]
+
+Output location: dist/landingatt3
+
+npm notice run landingatt3@0.0.0 postbuild
+npm notice run node legal-routes.cjs
