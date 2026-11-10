@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - experiment/ai-evaluation
+      - experiment/ab-evaluation
   pull_request:
     branches:
       - main
