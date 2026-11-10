@@ -1,6 +1,6 @@
 import { Component, HostListener, OnDestroy, inject } from '@angular/core';
 import { DOCUMENT, ViewportScroller } from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { LanguageService } from './language';
 import { IconComponent } from './icon';
@@ -17,9 +17,16 @@ export class AppComponent implements OnDestroy {
   readonly language = inject(LanguageService);
   readonly product = PRODUCT;
   private readonly document = inject(DOCUMENT);
+  private readonly router = inject(Router);
   menuOpen = false;
   scrolled = false;
   readonly navigation = ['value', 'benefits', 'product', 'plans', 'team'];
+  get onEc10(): boolean {
+    return this.router.isActive('/experiment/ec10', {
+      paths: 'exact', queryParams: 'ignored', fragment: 'ignored', matrixParams: 'ignored',
+    });
+  }
+
   constructor() {
     inject(ViewportScroller).setOffset([0, 100]);
   }

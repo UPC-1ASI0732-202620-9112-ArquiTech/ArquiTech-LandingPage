@@ -7,7 +7,7 @@
       </h1>
       <p class="lead">{{ "hero.description" | translate }}</p>
       <div class="actions">
-        <a class="button secondary" href="#plans"
+        <a class="button secondary" [href]="fragmentBase() + '#plans'"
           >{{ "hero.demo" | translate }} <at-icon name="arrow"
         /></a>
       </div>
@@ -89,33 +89,7 @@
     </div>
   </div>
 </section>
-<section id="plans" class="section">
-  <div class="container">
-    <div class="section-heading">
-      <p class="eyebrow">{{ "modes.label" | translate }}</p>
-      <h2>{{ "modes.title" | translate }}</h2>
-    </div>
-    <div class="cards mode-cards">
-      @for (mode of [0]; track mode) {
-        <article class="card mode-card">
-          <span class="eyebrow">{{ "modes.items." + mode + ".label" | translate }}</span>
-          <h3>{{ "modes.items." + mode + ".title" | translate }}</h3>
-          <p>{{ "modes.items." + mode + ".text" | translate }}</p>
-          <ul>
-            @for (item of [0, 1, 2]; track item) {
-              <li>
-                <at-icon name="check" />{{
-                  "modes.items." + mode + ".features." + item | translate
-                }}
-              </li>
-            }
-          </ul>
-          <a class="button" href="#contact">{{ "modes.contact" | translate }} <at-icon name="arrow" /></a>
-        </article>
-      }
-    </div>
-  </div>
-</section>
+<section at-landing-plans id="plans" class="section" [contactHref]="fragmentBase() + '#contact'"></section>
 <section id="team" class="section surface">
   <div class="container">
     <div class="section-heading">
@@ -198,6 +172,6 @@
     <p class="eyebrow">{{ "cta.label" | translate }}</p>
     <h2>{{ "cta.title" | translate }}</h2>
     <p>{{ "cta.description" | translate }}</p>
-    <a class="button" href="#plans">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
+    <a class="button" [href]="fragmentBase() + '#plans'">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
   </div>
 </section>

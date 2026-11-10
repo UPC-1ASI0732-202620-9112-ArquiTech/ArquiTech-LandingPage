@@ -1,5 +1,5 @@
 @if (variant === 'A') {
-  <at-landing />
+  <at-landing [fragmentBase]="fragmentBase" />
 } @else {
   <section class="ec10-hero" id="ec10">
     <div class="container ec10-wrap">
@@ -25,7 +25,7 @@
           <p>Revisa el estado de tus proyectos, sus incidencias y reportes semanales desde un mismo entorno.</p>
         </div>
       }
-      <form class="ec10-form" (ngSubmit)="openRequest()">
+      <form id="demo" class="ec10-form" (ngSubmit)="openRequest()">
         <h2>Solicitar demostración</h2>
         <p>Te ayudaremos a conocer las funcionalidades relevantes para tu rol.</p>
         <label>Organización
@@ -46,4 +46,5 @@
       </form>
     </div>
   </section>
+  <section at-landing-plans id="plans" class="section" [contactHref]="fragmentBase + '#demo'"></section>
 }
