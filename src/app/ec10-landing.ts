@@ -2,7 +2,6 @@ import { CommonModule, Location } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { LandingComponent } from './landing';
-import { LandingPlansComponent } from './landing-plans';
 
 type Variant = 'A' | 'B';
 type Segment = 'supervisor' | 'contractor';
@@ -16,7 +15,7 @@ const EVENTS_KEY = 'arquitech-ec10-events';
 @Component({
   selector: 'at-ec10-landing',
   standalone: true,
-  imports: [CommonModule, FormsModule, LandingComponent, LandingPlansComponent],
+  imports: [CommonModule, FormsModule, LandingComponent],
   templateUrl: './ec10-landing.html',
   styleUrl: './ec10-landing.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
