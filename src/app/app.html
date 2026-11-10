@@ -9,8 +9,8 @@
     <nav id="main-navigation" [class.open]="menuOpen" [attr.aria-label]="'nav.label' | translate">
       @for (section of navigation; track section) {
         <a
-          [routerLink]="section === 'plans' && onEc10 ? '/experiment/ec10' : '/'"
-          [queryParamsHandling]="section === 'plans' && onEc10 ? 'preserve' : 'replace'"
+          [routerLink]="onEc10 ? '/experiment/ec10' : '/'"
+          [queryParamsHandling]="onEc10 ? 'preserve' : 'replace'"
           [fragment]="section"
           (click)="closeMenu()">{{
           "nav." + section | translate
