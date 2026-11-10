@@ -1,0 +1,20 @@
+.ec10-hero { padding: 65px 0 90px; background: linear-gradient(145deg,#fbf8f5,#fff 60%,#fae8dd); }
+.ec10-wrap { max-width: 1080px; display: grid; gap: 22px; }
+.ec10-wrap h1 { max-width: 870px; }
+.ec10-wrap h1 span { color: var(--accent); }
+.ec10-wrap .lead { max-width: 680px; }
+.ec10-segments { display: flex; gap: 12px; flex-wrap: wrap; }
+.ec10-segments button { background: #fff; color: var(--ink); border: 2px solid var(--border); border-radius: 12px; padding: 14px 22px; font-weight: 700; }
+.ec10-segments button.is-active { color: var(--accent); border-color: var(--accent); background: #fff6f0; }
+.ec10-benefit { border-left: 4px solid var(--accent); padding: 20px 24px; background: #fff; border-radius: 0 12px 12px 0; }
+.ec10-benefit h2 { font-size: clamp(25px,2.3vw,34px); margin-bottom: 10px; }
+.ec10-benefit p { max-width: 780px; }
+.ec10-form { max-width: 660px; padding: 28px; border: 1px solid var(--border); border-radius: 16px; background: #fff; display: grid; gap: 14px; }
+.ec10-form h2 { font-size: 25px; }
+.ec10-form label { display: grid; gap: 6px; font-weight: 700; }
+.ec10-form input { border: 1px solid #c9d1d9; border-radius: 8px; height: 48px; padding: 0 12px; width: 100%; }
+.ec10-form .button { justify-self: start; }
+.ec10-form small, .ec10-disclaimer { color: var(--muted); font-size: .82rem; }
+.ec10-error { color: #9a2f08; background: #fff1e8; padding: 8px; border-radius: 8px; }
+.ec10-mail-link { color: var(--accent); text-decoration: underline; }
+@media(max-width:700px) { .ec10-hero { padding-top:30px; } .ec10-form { padding:20px; } .ec10-segments { flex-direction: column; } }
