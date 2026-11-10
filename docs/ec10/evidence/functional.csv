@@ -1,0 +1,22 @@
+id,variant,title,correct,started_at,ended_at,duration_ms,error,screenshot,trace,url,events,page_errors
+"FUNC-A01","A","Portada general y evento de vista","true","2026-11-10T13:10:15.093Z","2026-11-10T13:10:16.903Z","1810",,"FUNC-A01.png","FUNC-A01.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=A","view",""
+"FUNC-A02","A","La CTA de portada lleva a planes sin salir de EC10","false","2026-11-10T13:10:17.325Z","2026-11-10T13:10:18.906Z","1581","AssertionError [ERR_ASSERTION]: http://127.0.0.1:4300/#plans
++ actual - expected
+
++ '/'
+- '/experiment/ec10'
+","FUNC-A02.png","FUNC-A02.zip","http://127.0.0.1:4300/#plans","view",""
+"FUNC-A03","A","La CTA de planes lleva a contacto y conserva la exposición","false","2026-11-10T13:10:20.144Z","2026-11-10T13:10:21.910Z","1766","AssertionError [ERR_ASSERTION]: http://127.0.0.1:4300/#contact
++ actual - expected
+
++ '/'
+- '/experiment/ec10'
+","FUNC-A03.png","FUNC-A03.zip","http://127.0.0.1:4300/#contact","view",""
+"FUNC-A04","A","Enlace mailto del control y eventos locales","true","2026-11-10T13:10:23.120Z","2026-11-10T13:10:24.386Z","1266",,"FUNC-A04.png","FUNC-A04.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=A","view",""
+"FUNC-B01","B","Segmentos, beneficios, aria-pressed y eventos","true","2026-11-10T13:10:25.025Z","2026-11-10T13:10:26.236Z","1211",,"FUNC-B01.png","FUNC-B01.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=B","view|segment_selected|segment_selected",""
+"FUNC-B02","B","Formulario inválido con rechazo y sin mailto","true","2026-11-10T13:10:26.795Z","2026-11-10T13:10:29.065Z","2271",,"FUNC-B02.png","FUNC-B02.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=B","view",""
+"FUNC-B03","B","Formulario inválido con rechazo y sin mailto","true","2026-11-10T13:10:30.324Z","2026-11-10T13:10:32.566Z","2242",,"FUNC-B03.png","FUNC-B03.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=B","view",""
+"FUNC-B04","B","Formulario inválido con rechazo y sin mailto","true","2026-11-10T13:10:33.598Z","2026-11-10T13:10:35.865Z","2268",,"FUNC-B04.png","FUNC-B04.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=B","view",""
+"FUNC-B05","B","Borrador mailto y reapertura para Supervisor de obra","true","2026-11-10T13:10:36.824Z","2026-11-10T13:10:38.584Z","1760",,"FUNC-B05.png","FUNC-B05.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=B","view|mailto_intent",""
+"FUNC-B06","B","Borrador mailto y reapertura para Contratante","true","2026-11-10T13:10:39.531Z","2026-11-10T13:10:41.294Z","1763",,"FUNC-B06.png","FUNC-B06.zip","http://127.0.0.1:4300/experiment/ec10?testVariant=B","view|segment_selected|mailto_intent",""
+"FUNC-B07","B","La navegación compartida conserva la exposición B","false","2026-11-10T13:10:42.421Z","2026-11-10T13:10:43.879Z","1458","AssertionError [ERR_ASSERTION]: http://127.0.0.1:4300/#plans","FUNC-B07.png","FUNC-B07.zip","http://127.0.0.1:4300/#plans","view",""

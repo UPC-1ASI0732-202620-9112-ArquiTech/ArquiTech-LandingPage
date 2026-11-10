@@ -1,0 +1,2337 @@
+{
+  "browser": "157.0.8103.39",
+  "records": [
+    {
+      "id": "FUNC-A01",
+      "variant": "A",
+      "title": "Portada general y evento de vista",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:15.093Z",
+      "ended_at": "2026-11-10T13:10:16.903Z",
+      "duration_ms": 1810,
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+        "visitor": "2bf48cf9-4c07-47a5-9884-daa7a28fe6d3",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "A",
+            "visitorId": "2bf48cf9-4c07-47a5-9884-daa7a28fe6d3",
+            "at": "2026-11-10T13:10:16.470Z",
+            "segment": null
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316216020",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316216017",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316216013",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316216010",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316216465",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-A01.png",
+      "trace": "FUNC-A01.zip"
+    },
+    {
+      "id": "FUNC-A02",
+      "variant": "A",
+      "title": "La CTA de portada lleva a planes sin salir de EC10",
+      "correct": false,
+      "started_at": "2026-11-10T13:10:17.325Z",
+      "ended_at": "2026-11-10T13:10:18.906Z",
+      "duration_ms": 1581,
+      "error": "AssertionError [ERR_ASSERTION]: http://127.0.0.1:4300/#plans\n+ actual - expected\n\n+ '/'\n- '/experiment/ec10'\n",
+      "state": {
+        "url": "http://127.0.0.1:4300/#plans",
+        "visitor": "f6d448fe-ed63-48a5-89d3-f900a4b2b099",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "A",
+            "visitorId": "f6d448fe-ed63-48a5-89d3-f900a4b2b099",
+            "at": "2026-11-10T13:10:17.874Z",
+            "segment": null
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316217563",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316217572",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316217578",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316217582",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316217867",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316218408",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316218409",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316218411",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316218412",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Eduardo-Chacaliaza.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Victor-Espino.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Braden-Garcia.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Fabricio-Quispe.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Mariel-Mendoza.jpeg",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-A02.png",
+      "trace": "FUNC-A02.zip"
+    },
+    {
+      "id": "FUNC-A03",
+      "variant": "A",
+      "title": "La CTA de planes lleva a contacto y conserva la exposición",
+      "correct": false,
+      "started_at": "2026-11-10T13:10:20.144Z",
+      "ended_at": "2026-11-10T13:10:21.910Z",
+      "duration_ms": 1766,
+      "error": "AssertionError [ERR_ASSERTION]: http://127.0.0.1:4300/#contact\n+ actual - expected\n\n+ '/'\n- '/experiment/ec10'\n",
+      "state": {
+        "url": "http://127.0.0.1:4300/#contact",
+        "visitor": "8fd11dfd-ced8-4d94-82ae-3c607dcafc74",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "A",
+            "visitorId": "8fd11dfd-ced8-4d94-82ae-3c607dcafc74",
+            "at": "2026-11-10T13:10:20.823Z",
+            "segment": null
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316220605",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316220602",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316220606",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316220603",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316220815",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Eduardo-Chacaliaza.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Victor-Espino.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316221482",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316221483",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316221487",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316221488",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Eduardo-Chacaliaza.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Braden-Garcia.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Victor-Espino.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Mariel-Mendoza.jpeg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Fabricio-Quispe.png",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-A03.png",
+      "trace": "FUNC-A03.zip"
+    },
+    {
+      "id": "FUNC-A04",
+      "variant": "A",
+      "title": "Enlace mailto del control y eventos locales",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:23.120Z",
+      "ended_at": "2026-11-10T13:10:24.386Z",
+      "duration_ms": 1266,
+      "details": {
+        "mailto": "mailto:contacto@arquitech.com"
+      },
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+        "visitor": "55cfc44b-7212-41a4-976f-77fde223a82d",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "A",
+            "visitorId": "55cfc44b-7212-41a4-976f-77fde223a82d",
+            "at": "2026-11-10T13:10:23.737Z",
+            "segment": null
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          },
+          {
+            "type": "error",
+            "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/__ec10_test_frame__?variant=A",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316223468",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316223470",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316223472",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316223474",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316223732",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": [
+          {
+            "url": "mailto:contacto@arquitech.com",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      "screenshot": "FUNC-A04.png",
+      "trace": "FUNC-A04.zip"
+    },
+    {
+      "id": "FUNC-B01",
+      "variant": "B",
+      "title": "Segmentos, beneficios, aria-pressed y eventos",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:25.025Z",
+      "ended_at": "2026-11-10T13:10:26.236Z",
+      "duration_ms": 1211,
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "visitor": "6ef1bef6-faa1-461d-8f0d-8b05cae1ade8",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "6ef1bef6-faa1-461d-8f0d-8b05cae1ade8",
+            "at": "2026-11-10T13:10:25.758Z",
+            "segment": "supervisor"
+          },
+          {
+            "type": "segment_selected",
+            "variant": "B",
+            "visitorId": "6ef1bef6-faa1-461d-8f0d-8b05cae1ade8",
+            "at": "2026-11-10T13:10:25.948Z",
+            "segment": "contractor"
+          },
+          {
+            "type": "segment_selected",
+            "variant": "B",
+            "visitorId": "6ef1bef6-faa1-461d-8f0d-8b05cae1ade8",
+            "at": "2026-11-10T13:10:26.044Z",
+            "segment": "supervisor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316225456",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316225459",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316225461",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316225463",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316225748",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-B01.png",
+      "trace": "FUNC-B01.zip"
+    },
+    {
+      "id": "FUNC-B02",
+      "variant": "B",
+      "title": "Formulario inválido con rechazo y sin mailto",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:26.795Z",
+      "ended_at": "2026-11-10T13:10:29.065Z",
+      "duration_ms": 2271,
+      "details": {
+        "company": "",
+        "email": "ec10@example.invalid"
+      },
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "visitor": "2c01d694-4523-4913-999e-62c7e3b3aa3f",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "2c01d694-4523-4913-999e-62c7e3b3aa3f",
+            "at": "2026-11-10T13:10:27.402Z",
+            "segment": "supervisor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316227103",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316227106",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316227108",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316227109",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316227394",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-B02.png",
+      "trace": "FUNC-B02.zip"
+    },
+    {
+      "id": "FUNC-B03",
+      "variant": "B",
+      "title": "Formulario inválido con rechazo y sin mailto",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:30.324Z",
+      "ended_at": "2026-11-10T13:10:32.566Z",
+      "duration_ms": 2242,
+      "details": {
+        "company": "Obra EC10 & QA",
+        "email": "invalido"
+      },
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "visitor": "a5e852ab-4612-4909-909b-f12ec75030ad",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "a5e852ab-4612-4909-909b-f12ec75030ad",
+            "at": "2026-11-10T13:10:31.009Z",
+            "segment": "supervisor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316230691",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316230694",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316230697",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316230699",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316231003",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-B03.png",
+      "trace": "FUNC-B03.zip"
+    },
+    {
+      "id": "FUNC-B04",
+      "variant": "B",
+      "title": "Formulario inválido con rechazo y sin mailto",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:33.598Z",
+      "ended_at": "2026-11-10T13:10:35.865Z",
+      "duration_ms": 2268,
+      "details": {
+        "company": "   ",
+        "email": "ec10@example.invalid"
+      },
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "visitor": "487cba72-f501-4601-a326-3bd9d1d5ec3b",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "487cba72-f501-4601-a326-3bd9d1d5ec3b",
+            "at": "2026-11-10T13:10:34.308Z",
+            "segment": "supervisor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316234023",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316234026",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316234029",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316234031",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316234302",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-B04.png",
+      "trace": "FUNC-B04.zip"
+    },
+    {
+      "id": "FUNC-B05",
+      "variant": "B",
+      "title": "Borrador mailto y reapertura para Supervisor de obra",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:36.824Z",
+      "ended_at": "2026-11-10T13:10:38.584Z",
+      "duration_ms": 1760,
+      "details": {
+        "mailto": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20supervisor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Supervisor%20de%20obra%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A"
+      },
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "visitor": "8e4f0f19-7c5f-470c-896f-87894c81fee3",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "8e4f0f19-7c5f-470c-896f-87894c81fee3",
+            "at": "2026-11-10T13:10:37.538Z",
+            "segment": "supervisor"
+          },
+          {
+            "type": "mailto_intent",
+            "variant": "B",
+            "visitorId": "8e4f0f19-7c5f-470c-896f-87894c81fee3",
+            "at": "2026-11-10T13:10:37.898Z",
+            "segment": "supervisor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          },
+          {
+            "type": "error",
+            "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+          },
+          {
+            "type": "error",
+            "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/__ec10_test_frame__?variant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316237258",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316237259",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316237255",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316237253",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316237532",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": [
+          {
+            "url": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20supervisor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Supervisor%20de%20obra%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20supervisor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Supervisor%20de%20obra%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      "screenshot": "FUNC-B05.png",
+      "trace": "FUNC-B05.zip"
+    },
+    {
+      "id": "FUNC-B06",
+      "variant": "B",
+      "title": "Borrador mailto y reapertura para Contratante",
+      "correct": true,
+      "started_at": "2026-11-10T13:10:39.531Z",
+      "ended_at": "2026-11-10T13:10:41.294Z",
+      "duration_ms": 1763,
+      "details": {
+        "mailto": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20contractor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Contratante%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A"
+      },
+      "state": {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+        "visitor": "e401060b-5ca6-444b-a300-234c0664b1e2",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "e401060b-5ca6-444b-a300-234c0664b1e2",
+            "at": "2026-11-10T13:10:40.272Z",
+            "segment": "supervisor"
+          },
+          {
+            "type": "segment_selected",
+            "variant": "B",
+            "visitorId": "e401060b-5ca6-444b-a300-234c0664b1e2",
+            "at": "2026-11-10T13:10:40.491Z",
+            "segment": "contractor"
+          },
+          {
+            "type": "mailto_intent",
+            "variant": "B",
+            "visitorId": "e401060b-5ca6-444b-a300-234c0664b1e2",
+            "at": "2026-11-10T13:10:40.723Z",
+            "segment": "contractor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          },
+          {
+            "type": "error",
+            "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+          },
+          {
+            "type": "error",
+            "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/__ec10_test_frame__?variant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316239940",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316239952",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316239943",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316239949",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316240266",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": [
+          {
+            "url": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20contractor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Contratante%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "mailto:contacto@arquitech.com?subject=Solicitud%20de%20demostraci%C3%B3n%20ArquiTech%20-%20contractor&body=Solicito%20informaci%C3%B3n%20sobre%20ArquiTech.%0ASegmento%3A%20Contratante%0AOrganizaci%C3%B3n%3A%20Obra%20EC10%20%26%20QA%0ACorreo%20de%20contacto%3A%20ec10%40example.invalid%0A",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      "screenshot": "FUNC-B06.png",
+      "trace": "FUNC-B06.zip"
+    },
+    {
+      "id": "FUNC-B07",
+      "variant": "B",
+      "title": "La navegación compartida conserva la exposición B",
+      "correct": false,
+      "started_at": "2026-11-10T13:10:42.421Z",
+      "ended_at": "2026-11-10T13:10:43.879Z",
+      "duration_ms": 1458,
+      "error": "AssertionError [ERR_ASSERTION]: http://127.0.0.1:4300/#plans",
+      "state": {
+        "url": "http://127.0.0.1:4300/#plans",
+        "visitor": "75bcb9ef-d2ce-4530-b4e4-aa18fdcd5f3f",
+        "assignment": null,
+        "events": [
+          {
+            "type": "view",
+            "variant": "B",
+            "visitorId": "75bcb9ef-d2ce-4530-b4e4-aa18fdcd5f3f",
+            "at": "2026-11-10T13:10:43.213Z",
+            "segment": "supervisor"
+          }
+        ]
+      },
+      "logs": {
+        "console": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "log",
+            "text": "Angular is running in development mode."
+          }
+        ],
+        "pageErrors": [],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=B",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/styles.css",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/polyfills.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@vite/client",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/main.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-YYAY5NOK.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=ca01f827",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316242834",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316242837",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316242844",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316242846",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/chunk-P4G4HXF6.js",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=c561d39e",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316243204",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Eduardo-Chacaliaza.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Victor-Espino.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Braden-Garcia.png",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Mariel-Mendoza.jpeg",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4300/assets/img/team/Fabricio-Quispe.png",
+            "status": 200
+          }
+        ],
+        "blockedExternal": [],
+        "failedRequests": []
+      },
+      "screenshot": "FUNC-B07.png",
+      "trace": "FUNC-B07.zip"
+    }
+  ]
+}

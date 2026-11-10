@@ -1,0 +1,27 @@
+{
+  "experiment": "EC10",
+  "run_id": "2026-11-10-ec10-navigation-retest",
+  "branch": "experiment/ab-evaluation",
+  "application_commit": "cd872735fdcd246a472aaf21d44fae995552e428",
+  "initial_application_commit": "abe5e10f7ee6d254eeaadb12a936814f0893e307",
+  "server_origin": "http://127.0.0.1:4300",
+  "browser": "Chrome Headless 157.0.8103.39",
+  "playwright": "1.63.0",
+  "locale": "es-PE",
+  "timezone": "America/Lima",
+  "data_kind": "synthetic",
+  "autonomous_driver": "OpenAI Codex (GPT-6 family), interactive accessibility observations",
+  "autonomous_verifier": "../../verify-autonomous.mjs --require-continuity",
+  "autonomous_profiles": ["V03", "V04"],
+  "initial_failed_cases_retested": ["FUNC-A02", "FUNC-A03", "FUNC-B07"],
+  "results": {
+    "assignment": { "A": 200, "B": 200 },
+    "functional": { "A": 4, "B": 7, "public": 1 },
+    "autonomous": { "A": 2, "B": 2 },
+    "angular": 6,
+    "total_correct": 422,
+    "total_incorrect": 0,
+    "build": "passed"
+  },
+  "commercial_indicators": { "M11": null, "F03": null }
+}

@@ -1,0 +1,2 @@
+# Keep the bytes covered by SHA256SUMS identical across Git checkouts.
+* -text

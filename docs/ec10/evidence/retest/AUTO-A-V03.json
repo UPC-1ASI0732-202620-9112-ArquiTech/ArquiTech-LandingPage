@@ -1,0 +1,247 @@
+{
+  "id": "AUTO-A-V03",
+  "variant": "A",
+  "profile": {
+    "id": "V03",
+    "segment": "supervisor",
+    "device": "mobile",
+    "intent": "request_information"
+  },
+  "goal": "Identifica cómo pedir una demostración de ArquiTech y deja preparada la acción de contacto local para tu organización. Usa tu rol si la página lo permite y detente antes de enviar cualquier mensaje.",
+  "organization": "Obra EC10 & QA",
+  "email": "ec10@example.invalid",
+  "decision": "La acción de correo se activó tras navegar por plan y contacto dentro de EC10. Detengo aquí la interacción local.",
+  "browser": "157.0.8103.39",
+  "started_at": "2026-11-10T13:21:34.092Z",
+  "ended_at": "2026-11-10T13:22:19.688Z",
+  "duration_ms": 45597,
+  "state": {
+    "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A#contact",
+    "visitor": "90969965-d208-40d7-bdc8-bab56f4e2569",
+    "assignment": null,
+    "events": [
+      {
+        "type": "view",
+        "variant": "A",
+        "visitorId": "90969965-d208-40d7-bdc8-bab56f4e2569",
+        "at": "2026-11-10T13:21:37.236Z",
+        "segment": null
+      }
+    ]
+  },
+  "draft": null,
+  "snapshot": "- link \"Skip to content\":\n  - /url: \"#main\"\n- banner:\n  - link \"ArquiTech\":\n    - /url: /#home\n  - button \"Switch to Spanish\": EN\n  - button \"Open menu\"\n- main:\n  - paragraph: CONSTRUCTION MANAGEMENT · ARQUITECH\n  - heading \"Your site, organized. Your decisions, clear.\" [level=1]\n  - paragraph: Bring materials, people and project tracking together in one platform. Accessible information for site supervisors and the clients who need to follow their progress.\n  - link \"View the service plan\":\n    - /url: /experiment/ec10?testVariant=A#plans\n  - figure \"From the site to the office A shared view of your project.\":\n    - img \"Professional reviewing construction plans beside a safety helmet.\"\n    - strong: From the site to the office\n    - text: A shared view of your project.\n  - paragraph: OUR PROPOSAL\n  - heading \"Less scattered information. More clarity.\" [level=2]\n  - paragraph: Spreadsheets, paper records and isolated messages make construction projects harder to follow. ArquiTech brings operational information together to support coordination.\n  - article:\n    - heading \"One project, one source of information\" [level=3]\n    - paragraph: Organize each project’s records and view materials, workers and incidents in one place.\n  - article:\n    - heading \"A space for each role\" [level=3]\n    - paragraph: The supervisor manages operations. The client views assigned projects and their information.\n  - article:\n    - heading \"Decisions with context\" [level=3]\n    - paragraph: Review resources and project status to identify needs and prepare the next step.\n  - paragraph: BENEFITS\n  - heading \"A more organized day on site.\" [level=2]\n  - paragraph: Tools to record what happens and find what you need without relying on separate files.\n  - article:\n    - heading \"Materials you can track\" [level=3]\n    - paragraph: Review stock, incoming materials and consumption to keep the site inventory organized.\n    - text: Inventory and movement history\n  - article:\n    - heading \"Better team organization\" [level=3]\n    - paragraph: Bring workers, attendance and tasks together to follow the team’s activity on each project.\n    - text: Workers, attendance and tasks\n  - article:\n    - heading \"Visibility for the client\" [level=3]\n    - paragraph: Access information on your assigned projects and view recorded incidents and machinery.\n    - text: Access based on your role\n  - paragraph: ABOUT THE PRODUCT\n  - heading \"Your project information, connected.\" [level=2]\n  - paragraph: ArquiTech organizes operations by project. Its modules let you view resources and record activities to maintain a clearer picture of the work.\n  - list:\n    - listitem:\n      - text: \"1\"\n      - heading \"Access your project\" [level=3]\n      - paragraph: Sign in and select a project assigned to your role.\n    - listitem:\n      - text: \"2\"\n      - heading \"Organize operations\" [level=3]\n      - paragraph: The supervisor records workers, materials, tasks, machinery and incidents.\n    - listitem:\n      - text: \"3\"\n      - heading \"Review and follow up\" [level=3]\n      - paragraph: View the project records and tracking information.\n  - paragraph: SAAS SERVICE PLAN\n  - heading \"One plan for your construction management.\" [level=2]\n  - article:\n    - text: SINGLE PLAN\n    - heading \"ArquiTech\" [level=3]\n    - paragraph: Manage and follow construction projects with access based on Supervisor and Contractor permissions. Commercial conditions are agreed with your organization.\n    - list:\n      - listitem: Project information and authorized role-based access\n      - listitem: Materials, workers, attendance, tasks, machinery and incidents\n      - listitem: Web and Mobile access to the shared SaaS service\n    - link \"Ask about the service\":\n      - /url: /experiment/ec10?testVariant=A#contact\n  - paragraph: ABOUT US\n  - heading \"Foundex, the team behind ArquiTech.\" [level=2]\n  - paragraph: Software Engineering students at Universidad Peruana de Ciencias Aplicadas.\n  - figure \"Eduardo Chacaliaza\":\n    - img \"Eduardo Chacaliaza\"\n    - text: Eduardo Chacaliaza\n  - figure \"Victor Espino\":\n    - img \"Victor Espino\"\n    - text: Victor Espino\n  - figure \"Braden Garcia\":\n    - img \"Braden Garcia\"\n    - text: Braden Garcia\n  - figure \"Mariel Mendoza\":\n    - img \"Mariel Mendoza\"\n    - text: Mariel Mendoza\n  - figure \"Fabricio Quispe\":\n    - img \"Fabricio Quispe\"\n    - text: Fabricio Quispe\n  - img \"Space for the team video\"\n  - article:\n    - heading \"Mission\" [level=3]\n    - paragraph: Provide digital solutions that improve construction project management for small and medium businesses, supporting resource administration and tracking to encourage efficiency, transparency and informed decisions.\n  - article:\n    - heading \"Vision\" [level=3]\n    - paragraph: Become a leading platform in Latin America for digital construction processes in small and medium businesses, with accessible technology focused on users’ needs.\n  - paragraph: BUILD WITH CONFIDENCE\n  - heading \"Designed for construction businesses like yours.\" [level=2]\n  - paragraph: A proposal to connect site supervisors and project clients through more organized, accessible construction information.\n  - text: Horizonte Obra Cimiento Norte Trazo Urbano Nova Edifica\n  - paragraph: FREQUENTLY ASKED QUESTIONS\n  - heading \"Your questions, answered.\" [level=2]\n  - group: What can I manage with ArquiTech?\n  - group: Is ArquiTech designed for my construction business?\n  - group: What can supervisors manage and clients view?\n  - group: How are materials tracked?\n  - group: Can I follow up on tasks and incidents?\n  - paragraph: TAKE THE NEXT STEP\n  - heading \"Discover a new way to manage your project.\" [level=2]\n  - paragraph: Explore ArquiTech and bring together the information your project needs.\n  - link \"View the service plan\":\n    - /url: /experiment/ec10?testVariant=A#plans\n- contentinfo:\n  - link \"ArquiTech\":\n    - /url: /#home\n  - paragraph: Organized construction information connecting supervisors and clients.\n  - heading \"Contact\" [level=3]\n  - link \"contacto@arquitech.com\":\n    - /url: mailto:contacto@arquitech.com\n  - text: Lima, Perú\n  - link \"+51 948 742 332\":\n    - /url: tel:+51948742332\n  - heading \"Follow us\" [level=3]\n  - link \"Facebook\":\n    - /url: https://www.facebook.com/\n  - link \"Instagram\":\n    - /url: https://www.instagram.com/\n  - link \"Twitter / X\":\n    - /url: https://x.com/\n  - text: Building with information. © 2026 ArquiTech\n  - link \"Privacy policy\":\n    - /url: /privacy\n  - link \"Terms and Conditions\":\n    - /url: /terms",
+  "clicks": [
+    {
+      "at": "2026-11-10T13:21:47.680Z",
+      "text": "View the service plan",
+      "href": "/experiment/ec10?testVariant=A#plans",
+      "trusted": true,
+      "frame_url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A"
+    },
+    {
+      "at": "2026-11-10T13:22:05.560Z",
+      "text": "Ask about the service",
+      "href": "/experiment/ec10?testVariant=A#contact",
+      "trusted": true,
+      "frame_url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A#plans"
+    },
+    {
+      "at": "2026-11-10T13:22:13.172Z",
+      "text": "contacto@arquitech.com",
+      "href": "mailto:contacto@arquitech.com",
+      "trusted": true,
+      "frame_url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A#contact"
+    }
+  ],
+  "logs": {
+    "console": [
+      {
+        "type": "warning",
+        "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "log",
+        "text": "Angular is running in development mode."
+      },
+      {
+        "type": "error",
+        "text": "Navigation to external protocol blocked by sandbox, because it doesn't contain any of: 'allow-top-navigation-to-custom-protocols', 'allow-top-navigation-by-user-activation', 'allow-top-navigation', or 'allow-popups'. See https://chromestatus.com/feature/5680742077038592 and https://chromeenterprise.google/policies/#SandboxExternalProtocolBlocked"
+      }
+    ],
+    "pageErrors": [],
+    "responses": [
+      {
+        "url": "http://127.0.0.1:4300/__ec10_test_frame__?variant=A",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/experiment/ec10?testVariant=A",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/polyfills.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/styles.css",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@vite/client",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/main.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/zone__js.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/node_modules/vite/dist/client/env.mjs",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_platform-browser.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/chunk-DTBTSCP7.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_core.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_router.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_common_http.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_core.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@ngx-translate_http-loader.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WDMUDEB6.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-UZFUVKGB.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-PSX7AJZG.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-7V64JRYA.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-WKXLOLBC.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/chunk-IYYAXGAJ.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Ficon.ts%40IconComponent&t=1794316896425",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding-plans.ts%40LandingPlansComponent&t=1794316896429",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flanding.ts%40LandingComponent&t=1794316896433",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fapp.ts%40AppComponent&t=1794316896437",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Flegal.ts%40LegalComponent&t=1794316896439",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/chunk-H3F5OWG7.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/i18n/en.json?v=saas-2026-10",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/logo.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@fs/C:/Users/educmz/Documents/GitHub/nuevo/ArquiTech-LandingPage/.angular/cache/20.0.0/landingatt3/vite/deps/@angular_forms.js?v=099d7d55",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/@ng/component?c=src%2Fapp%2Fec10-landing.ts%40Ec10LandingComponent&t=1794316897228",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/horarios.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/team/Eduardo-Chacaliaza.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/team/Victor-Espino.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/team/Fabricio-Quispe.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/team/Braden-Garcia.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4300/assets/img/team/Mariel-Mendoza.jpeg",
+        "status": 200
+      }
+    ],
+    "blockedExternal": [],
+    "failedRequests": [
+      {
+        "url": "mailto:contacto@arquitech.com",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  },
+  "steps": 3,
+  "attempts": 1,
+  "screenshot": "AUTO-A-V03.png",
+  "trace": "AUTO-A-V03.zip"
+}

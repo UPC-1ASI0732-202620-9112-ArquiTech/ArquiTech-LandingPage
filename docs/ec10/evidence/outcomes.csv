@@ -1,0 +1,5 @@
+experiment_id,profile_id,role,condition,task_id,started_at,ended_at,duration_seconds,outcome_correct,attempt_count,help_requested,failure_reason,remained_on_experiment,evidence_path
+"EC10","V03","supervisor","A","contacto-local","2026-11-10T13:12:09.417Z","2026-11-10T13:12:21.390Z","11.973","true","1",,,"true","AUTO-A-V03.json"
+"EC10","V04","contractor","A","contacto-local","2026-11-10T13:10:48.917Z","2026-11-10T13:12:09.850Z","80.933","true","1",,,"false","AUTO-A-V04.json"
+"EC10","V03","supervisor","B","contacto-local","2026-11-10T13:10:48.962Z","2026-11-10T13:12:09.850Z","80.888","true","1",,,"true","AUTO-B-V03.json"
+"EC10","V04","contractor","B","contacto-local","2026-11-10T13:10:48.967Z","2026-11-10T13:12:15.259Z","86.292","true","1",,,"true","AUTO-B-V04.json"
