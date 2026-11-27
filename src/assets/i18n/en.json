@@ -16,7 +16,8 @@
     "benefits": "Benefits",
     "product": "Product",
     "team": "About us",
-    "plans": "Service plan"
+    "plans": "Service plan",
+    "signIn": "Sign in"
   },
   "hero": {
     "label": "CONSTRUCTION MANAGEMENT · ARQUITECH",
@@ -111,7 +112,6 @@
     ]
   },
   "team": {
-    "videoPlaceholder": "Space for the team video",
     "label": "ABOUT US",
     "title": "Foundex, the team behind ArquiTech.",
     "description": "Software Engineering students at Universidad Peruana de Ciencias Aplicadas.",
@@ -133,7 +133,6 @@
   "footer": {
     "description": "Organized construction information connecting supervisors and clients.",
     "contact": "Contact",
-    "follow": "Follow us",
     "tagline": "Building with information."
   },
   "legal": {
@@ -276,5 +275,47 @@
         "answer": "Yes. Supervisors can record tasks, update their status and manage incidents. Information is associated with the project so authorized users can view it."
       }
     ]
+  },
+  "ec10": {
+    "segmentsLabel": "Select your role",
+    "supervisor": "I am a supervisor",
+    "contractor": "I am a client",
+    "supervisorTitle": "Less time recording,",
+    "supervisorHighlight": "more time supervising.",
+    "supervisorLead": "Review your site’s materials, attendance, tasks and incidents in one place.",
+    "contractorTitle": "Follow your project’s progress,",
+    "contractorHighlight": "whenever you need it.",
+    "contractorLead": "Keep up with progress, incidents and reports without relying on messages.",
+    "requestDemo": "Request a demo",
+    "supervisorBenefitTitle": "Less time recording; more time supervising.",
+    "supervisorBenefit": "Bring materials, attendance, tasks and incidents together by project. Review each workday and generate weekly reports.",
+    "contractorBenefitTitle": "Follow your project without relying on messages.",
+    "contractorBenefit": "Review the status of your projects, their incidents and weekly reports in one place.",
+    "ctaTitle": "Discover ArquiTech for your role",
+    "ctaText": "Request a demo focused on your project’s needs.",
+    "form": {
+      "title": "Request a demo",
+      "description": "We will help you explore the features that matter for your role.",
+      "company": "Organization",
+      "companyPlaceholder": "Organization name",
+      "email": "Contact email",
+      "emailPlaceholder": "email@organization.com",
+      "notice": "Continuing opens your email app with the request ready to send. If you use email in the browser (Gmail, Outlook web), copy the address and write to us at:",
+      "copy": "Copy email",
+      "copied": "Email copied",
+      "submit": "Open email with the request",
+      "error": "Enter an organization and a valid email address.",
+      "prepared": "We prepared the email in your email app. The request is only sent when you confirm it there. If it did not open, write to {{email}}.",
+      "reopen": "Open the prepared email again"
+    },
+    "mail": {
+      "subject": "ArquiTech demo request - {{segment}}",
+      "intro": "I would like information about ArquiTech.",
+      "segment": "Role",
+      "company": "Organization",
+      "email": "Contact email",
+      "supervisor": "Site supervisor",
+      "contractor": "Client"
+    }
   }
 }

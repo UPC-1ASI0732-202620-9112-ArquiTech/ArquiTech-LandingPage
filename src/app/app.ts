@@ -6,6 +6,8 @@ import { LanguageService } from './language';
 import { IconComponent } from './icon';
 import { PRODUCT } from './product';
 
+export const EC10_PATH = '/experimento/ec10';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -16,13 +18,14 @@ import { PRODUCT } from './product';
 export class AppComponent implements OnDestroy {
   readonly language = inject(LanguageService);
   readonly product = PRODUCT;
+  readonly ec10Path = EC10_PATH;
   private readonly document = inject(DOCUMENT);
   private readonly router = inject(Router);
   menuOpen = false;
   scrolled = false;
   readonly navigation = ['value', 'benefits', 'product', 'plans', 'team'];
   get onEc10(): boolean {
-    return this.router.isActive('/experiment/ec10', {
+    return this.router.isActive(EC10_PATH, {
       paths: 'exact', queryParams: 'ignored', fragment: 'ignored', matrixParams: 'ignored',
     });
   }

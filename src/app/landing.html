@@ -2,14 +2,9 @@
   <div class="container hero-grid">
     <div class="hero-copy">
       @if (personalized()) {
-        <p class="eyebrow">ARQUITECH - EC10 / VARIANTE B</p>
-        @if (segment() === 'supervisor') {
-          <h1>Menos tiempo registrando, <span>más tiempo supervisando.</span></h1>
-          <p class="lead">Revisa materiales, asistencia, tareas e incidencias de tu obra desde un solo lugar.</p>
-        } @else {
-          <h1>Consulta el avance de tu obra, <span>cuando lo necesitas.</span></h1>
-          <p class="lead">Mantente al tanto de los avances, incidencias y reportes sin depender de mensajes.</p>
-        }
+        <p class="eyebrow">{{ "hero.label" | translate }}</p>
+        <h1>{{ "ec10." + segment() + "Title" | translate }} <span>{{ "ec10." + segment() + "Highlight" | translate }}</span></h1>
+        <p class="lead">{{ "ec10." + segment() + "Lead" | translate }}</p>
       } @else {
         <p class="eyebrow">{{ "hero.label" | translate }}</p>
         <h1>{{ "hero.title" | translate }} <span>{{ "hero.highlight" | translate }}</span></h1>
@@ -18,7 +13,7 @@
       <ng-content select="[ec10-segments]"></ng-content>
       <div class="actions">
         @if (personalized()) {
-          <a class="button" [href]="fragmentBase() + '#demo'">Solicitar demostración <at-icon name="arrow" /></a>
+          <a class="button" [href]="fragmentBase() + '#demo'">{{ "ec10.requestDemo" | translate }} <at-icon name="arrow" /></a>
         } @else {
           <a class="button secondary" [href]="fragmentBase() + '#plans'">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
         }
@@ -69,13 +64,8 @@
     </div>
     @if (personalized()) {
       <div class="ec10-benefit" aria-live="polite">
-        @if (segment() === 'supervisor') {
-          <h3>Menos tiempo registrando; más tiempo supervisando.</h3>
-          <p>Consolida materiales, asistencia, tareas e incidencias por proyecto. Consulta la información de cada jornada y genera reportes semanales.</p>
-        } @else {
-          <h3>Consulta el avance de tu obra sin depender de mensajes.</h3>
-          <p>Revisa el estado de tus proyectos, sus incidencias y reportes semanales desde un mismo entorno.</p>
-        }
+        <h3>{{ "ec10." + segment() + "BenefitTitle" | translate }}</h3>
+        <p>{{ "ec10." + segment() + "Benefit" | translate }}</p>
       </div>
     }
     <div class="cards three">
@@ -136,13 +126,6 @@
       }
     </div>
     <div class="purpose-grid">
-      <div
-        class="team-video-space"
-        role="img"
-        [attr.aria-label]="'team.videoPlaceholder' | translate"
-      >
-        <at-icon name="play" /><span>{{ "team.videoPlaceholder" | translate }}</span>
-      </div>
       <div class="purpose">
         <article>
           <h3>{{ "team.missionTitle" | translate }}</h3>
@@ -195,9 +178,9 @@
   <div class="container">
     <p class="eyebrow">{{ "cta.label" | translate }}</p>
     @if (personalized()) {
-      <h2>Descubre ArquiTech para tu rol</h2>
-      <p>Solicita una demostración centrada en las necesidades de tu obra.</p>
-      <a class="button" [href]="fragmentBase() + '#demo'">Solicitar demostración <at-icon name="arrow" /></a>
+      <h2>{{ "ec10.ctaTitle" | translate }}</h2>
+      <p>{{ "ec10.ctaText" | translate }}</p>
+      <a class="button" [href]="fragmentBase() + '#demo'">{{ "ec10.requestDemo" | translate }} <at-icon name="arrow" /></a>
     } @else {
       <h2>{{ "cta.title" | translate }}</h2>
       <p>{{ "cta.description" | translate }}</p>
