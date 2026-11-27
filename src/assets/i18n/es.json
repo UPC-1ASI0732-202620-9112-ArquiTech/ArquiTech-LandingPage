@@ -16,7 +16,8 @@
     "benefits": "Beneficios",
     "product": "Producto",
     "team": "Nosotros",
-    "plans": "Plan del servicio"
+    "plans": "Plan del servicio",
+    "signIn": "Iniciar sesión"
   },
   "hero": {
     "label": "GESTIÓN DE OBRAS · ARQUITECH",
@@ -111,7 +112,6 @@
     ]
   },
   "team": {
-    "videoPlaceholder": "Espacio para el video del equipo",
     "label": "SOBRE NOSOTROS",
     "title": "Foundex, el equipo detrás de ArquiTech.",
     "description": "Estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas.",
@@ -133,7 +133,6 @@
   "footer": {
     "description": "Información de obra organizada para conectar supervisores y contratantes.",
     "contact": "Contacto",
-    "follow": "Síguenos",
     "tagline": "Construimos con información."
   },
   "legal": {
@@ -276,5 +275,47 @@
         "answer": "Sí. El supervisor puede registrar tareas, actualizar su estado y gestionar incidentes. La información queda asociada al proyecto para que los perfiles autorizados puedan consultarla."
       }
     ]
+  },
+  "ec10": {
+    "segmentsLabel": "Selecciona tu rol",
+    "supervisor": "Soy supervisor",
+    "contractor": "Soy contratante",
+    "supervisorTitle": "Menos tiempo registrando,",
+    "supervisorHighlight": "más tiempo supervisando.",
+    "supervisorLead": "Revisa materiales, asistencia, tareas e incidentes de tu obra desde un solo lugar.",
+    "contractorTitle": "Consulta el avance de tu obra,",
+    "contractorHighlight": "cuando lo necesitas.",
+    "contractorLead": "Mantente al tanto de los avances, incidentes y reportes sin depender de mensajes.",
+    "requestDemo": "Solicitar demostración",
+    "supervisorBenefitTitle": "Menos tiempo registrando; más tiempo supervisando.",
+    "supervisorBenefit": "Consolida materiales, asistencia, tareas e incidentes por proyecto. Consulta la información de cada jornada y genera reportes semanales.",
+    "contractorBenefitTitle": "Consulta el avance de tu obra sin depender de mensajes.",
+    "contractorBenefit": "Revisa el estado de tus proyectos, sus incidentes y reportes semanales desde un mismo entorno.",
+    "ctaTitle": "Descubre ArquiTech para tu rol",
+    "ctaText": "Solicita una demostración centrada en las necesidades de tu obra.",
+    "form": {
+      "title": "Solicitar demostración",
+      "description": "Te ayudaremos a conocer las funcionalidades relevantes para tu rol.",
+      "company": "Organización",
+      "companyPlaceholder": "Nombre de organización",
+      "email": "Correo de contacto",
+      "emailPlaceholder": "correo@organizacion.com",
+      "notice": "Al continuar se abrirá tu aplicación de correo con la solicitud lista para enviar. Si usas el correo desde el navegador (Gmail, Outlook web), copia la dirección y escríbenos a:",
+      "copy": "Copiar correo",
+      "copied": "Correo copiado",
+      "submit": "Abrir correo con la solicitud",
+      "error": "Escribe una organización y un correo electrónico válido.",
+      "prepared": "Preparamos el correo en tu aplicación de email. La solicitud se enviará solo cuando confirmes el envío allí. Si no se abrió, escríbenos a {{email}}.",
+      "reopen": "Volver a abrir el correo preparado"
+    },
+    "mail": {
+      "subject": "Solicitud de demostración ArquiTech - {{segment}}",
+      "intro": "Solicito información sobre ArquiTech.",
+      "segment": "Rol",
+      "company": "Organización",
+      "email": "Correo de contacto",
+      "supervisor": "Supervisor de obra",
+      "contractor": "Contratante"
+    }
   }
 }

@@ -12,7 +12,7 @@ import { routes } from './app.routes';
 
 export function HttpLoaderFactory(http: HttpClient) {
   // Refresh the public agreement and plan copy for returning visitors too.
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json?v=saas-2026-10');
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json?v=audit-2026-11');
 }
 export const appConfig: ApplicationConfig = {
   providers: [

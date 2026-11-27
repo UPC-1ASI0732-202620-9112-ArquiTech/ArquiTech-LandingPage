@@ -9,13 +9,15 @@
     <nav id="main-navigation" [class.open]="menuOpen" [attr.aria-label]="'nav.label' | translate">
       @for (section of navigation; track section) {
         <a
-          [routerLink]="onEc10 ? '/experiment/ec10' : '/'"
+          [routerLink]="onEc10 ? ec10Path : '/'"
           [queryParamsHandling]="onEc10 ? 'preserve' : 'replace'"
           [fragment]="section"
           (click)="closeMenu()">{{
           "nav." + section | translate
         }}</a>
       }
+      <!-- Finding 15: the same explicit action is available in the mobile menu. -->
+      <a class="nav-signin" [href]="product.app" (click)="closeMenu()">{{ "nav.signIn" | translate }}</a>
     </nav>
     <div class="header-actions">
       <button
@@ -25,7 +27,7 @@
       >
         <at-icon name="globe" /><span>{{ language.current().toUpperCase() }}</span>
       </button>
-      <a class="button nav-cta" [href]="product.app">ArquiTech <at-icon name="arrow" /></a>
+      <a class="button nav-cta" [href]="product.app">{{ "nav.signIn" | translate }} <at-icon name="arrow" /></a>
       <button
         id="menu-toggle"
         class="menu-toggle"
@@ -56,32 +58,6 @@
           <span>Lima, Perú</span>
           <a href="tel:+51948742332">+51 948 742 332</a>
         </address>
-      </div>
-      <div class="footer-social">
-        <h3>{{ "footer.follow" | translate }}</h3>
-        <div class="social-links">
-          <a
-            href="https://www.facebook.com/"
-            aria-label="Facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><at-icon name="facebook"
-          /></a>
-          <a
-            href="https://www.instagram.com/"
-            aria-label="Instagram"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><at-icon name="instagram"
-          /></a>
-          <a
-            href="https://x.com/"
-            aria-label="Twitter / X"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><at-icon name="twitter"
-          /></a>
-        </div>
       </div>
     </div>
     <div class="footer-bottom">

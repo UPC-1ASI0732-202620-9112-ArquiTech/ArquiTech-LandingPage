@@ -1,6 +1,8 @@
 import { TestBed } from '@angular/core/testing';
-import { TranslateModule } from '@ngx-translate/core';
-import { Ec10LandingComponent } from './ec10-landing';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import es from '../assets/i18n/es.json';
+import en from '../assets/i18n/en.json';
+import { DEMO_DESTINATION, Ec10LandingComponent } from './ec10-landing';
 
 describe('EC10 - landing completa y personalización A/B', () => {
   const sections = ['home', 'value', 'benefits', 'product', 'plans', 'team', 'trust', 'faq'];
@@ -13,14 +15,19 @@ describe('EC10 - landing completa y personalización A/B', () => {
   beforeEach(async () => {
     localStorage.removeItem('arquitech-ec10-visitor-id');
     localStorage.removeItem('arquitech-ec10-assignment');
+    localStorage.removeItem('arquitech-language');
     sessionStorage.removeItem('arquitech-ec10-events');
     await TestBed.configureTestingModule({
       imports: [Ec10LandingComponent, TranslateModule.forRoot()],
     }).compileComponents();
+    const translate = TestBed.inject(TranslateService);
+    translate.setTranslation('es', es);
+    translate.setTranslation('en', en);
   });
   afterEach(() => {
     localStorage.removeItem('arquitech-ec10-visitor-id');
     localStorage.removeItem('arquitech-ec10-assignment');
+    localStorage.removeItem('arquitech-language');
     sessionStorage.removeItem('arquitech-ec10-events');
   });
 
@@ -91,5 +98,59 @@ describe('EC10 - landing completa y personalización A/B', () => {
     assertFullPage(f2.nativeElement);
     const events = JSON.parse(sessionStorage.getItem('arquitech-ec10-events') ?? '[]') as { type: string }[];
     expect(events.filter(event => event.type === 'view').length).toBe(2);
+  });
+});
+
+describe('EC10 - correcciones de la auditoría (hallazgos 2, 6 y 13)', () => {
+  beforeEach(async () => {
+    localStorage.setItem('arquitech-ec10-assignment', 'B');
+    localStorage.removeItem('arquitech-language');
+    await TestBed.configureTestingModule({
+      imports: [Ec10LandingComponent, TranslateModule.forRoot()],
+    }).compileComponents();
+    const translate = TestBed.inject(TranslateService);
+    translate.setTranslation('es', es);
+    translate.setTranslation('en', en);
+  });
+  afterEach(() => {
+    localStorage.removeItem('arquitech-ec10-assignment');
+    localStorage.removeItem('arquitech-language');
+    sessionStorage.removeItem('arquitech-ec10-events');
+  });
+
+  it('abre en español y no muestra códigos ni la palabra variante', () => {
+    const f = TestBed.createComponent(Ec10LandingComponent);
+    f.detectChanges();
+    const text = (f.nativeElement as HTMLElement).textContent ?? '';
+    expect(TestBed.inject(TranslateService).currentLang).toBe('es');
+    expect(text).not.toMatch(/EC10|VARIANTE|Variante|Prototipo experimental/);
+  });
+
+  it('traduce todos los textos de la variante B al cambiar a inglés', () => {
+    const f = TestBed.createComponent(Ec10LandingComponent);
+    f.detectChanges();
+    TestBed.inject(TranslateService).use('en');
+    f.detectChanges();
+    const el: HTMLElement = f.nativeElement;
+    expect(el.querySelector('#home h1')?.textContent).toContain('Less time recording');
+    expect(el.querySelector('.ec10-form h2')?.textContent).toContain('Request a demo');
+    expect(el.textContent).not.toMatch(/Soy supervisor|Solicitar demostración|Menos tiempo/);
+  });
+
+  it('explica el uso de mailto antes del botón y muestra el correo de destino copiable', async () => {
+    const write = spyOn(navigator.clipboard, 'writeText').and.returnValue(Promise.resolve());
+    const f = TestBed.createComponent(Ec10LandingComponent);
+    f.detectChanges();
+    const el: HTMLElement = f.nativeElement;
+    const notice = el.querySelector('[data-testid="ec10-mail-notice"]')!;
+    const submit = el.querySelector('.ec10-form button[type="submit"]')!;
+    expect(notice.compareDocumentPosition(submit) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(notice.textContent).toContain(DEMO_DESTINATION);
+    (el.querySelector('.ec10-copy') as HTMLButtonElement).click();
+    await f.whenStable();
+    f.detectChanges();
+    expect(write).toHaveBeenCalledWith(DEMO_DESTINATION);
+    expect(f.componentInstance.copied()).toBeTrue();
+    expect(el.querySelector('.ec10-copy')?.textContent).toContain('Correo copiado');
   });
 });
