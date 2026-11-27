@@ -441,9 +441,20 @@ section[id] {
 }
 .purpose-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: 32px;
   align-items: stretch;
+}
+/* Findings 16 and 21: no placeholder video; Mission and Vision use the full width and never overflow. */
+.purpose-grid > * {
+  min-width: 0;
+  width: 100%;
+}
+.purpose {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+}
+.purpose p {
+  overflow-wrap: anywhere;
 }
 .purpose {
   background: #fff;

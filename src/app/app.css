@@ -122,7 +122,7 @@ footer {
 }
 .footer-top {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 36px;
   align-items: start;
   padding-bottom: 26px;
@@ -145,6 +145,7 @@ footer h3 {
 }
 .footer-contact {
   text-align: center;
+  justify-self: end;
 }
 .footer-contact address {
   display: flex;
@@ -276,5 +277,22 @@ footer a:hover {
   }
   footer {
     padding-top: 28px;
+  }
+}
+
+/* Finding 15: sign-in link inside the mobile menu (the header button is hidden there). */
+.nav-signin {
+  display: none;
+}
+@media (max-width: 700px) {
+  .nav-signin {
+    display: block;
+    margin-top: 6px;
+    border-top: 1px solid var(--border);
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .footer-contact {
+    justify-self: center;
   }
 }
