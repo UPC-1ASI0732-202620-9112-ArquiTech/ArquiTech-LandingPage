@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Check source formatting
-        run: npx --yes prettier@3.9.9 --check "src/**/*.{ts,html,css}" "public/i18n/*.json"
+        run: npx --yes prettier@3.9.9 --check "src/**/*.{ts,html,css}" "src/**/i18n/*.json"
 
       - name: Run tests headlessly
         run: npm test -- --watch=false --browsers=ChromeHeadless
