@@ -2,20 +2,29 @@
   <div class="container hero-grid">
     <div class="hero-copy">
       @if (personalized()) {
-        <p class="eyebrow">{{ "hero.label" | translate }}</p>
-        <h1>{{ "ec10." + segment() + "Title" | translate }} <span>{{ "ec10." + segment() + "Highlight" | translate }}</span></h1>
-        <p class="lead">{{ "ec10." + segment() + "Lead" | translate }}</p>
+        <p class="eyebrow">{{ 'hero.label' | translate }}</p>
+        <h1>
+          {{ 'ec10.' + segment() + 'Title' | translate }}
+          <span>{{ 'ec10.' + segment() + 'Highlight' | translate }}</span>
+        </h1>
+        <p class="lead">{{ 'ec10.' + segment() + 'Lead' | translate }}</p>
       } @else {
-        <p class="eyebrow">{{ "hero.label" | translate }}</p>
-        <h1>{{ "hero.title" | translate }} <span>{{ "hero.highlight" | translate }}</span></h1>
-        <p class="lead">{{ "hero.description" | translate }}</p>
+        <p class="eyebrow">{{ 'hero.label' | translate }}</p>
+        <h1>
+          {{ 'hero.title' | translate }} <span>{{ 'hero.highlight' | translate }}</span>
+        </h1>
+        <p class="lead">{{ 'hero.description' | translate }}</p>
       }
       <ng-content select="[ec10-segments]"></ng-content>
       <div class="actions">
         @if (personalized()) {
-          <a class="button" [href]="fragmentBase() + '#demo'">{{ "ec10.requestDemo" | translate }} <at-icon name="arrow" /></a>
+          <a class="button" [href]="fragmentBase() + '#demo'"
+            >{{ 'ec10.requestDemo' | translate }} <at-icon name="arrow"
+          /></a>
         } @else {
-          <a class="button secondary" [href]="fragmentBase() + '#plans'">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
+          <a class="button secondary" [href]="fragmentBase() + '#plans'"
+            >{{ 'hero.demo' | translate }} <at-icon name="arrow"
+          /></a>
         }
       </div>
     </div>
@@ -30,8 +39,8 @@
       <figcaption>
         <span class="visual-icon"><at-icon name="check" /></span>
         <div>
-          <strong>{{ "hero.visualTitle" | translate }}</strong
-          ><span>{{ "hero.visualText" | translate }}</span>
+          <strong>{{ 'hero.visualTitle' | translate }}</strong
+          ><span>{{ 'hero.visualText' | translate }}</span>
         </div>
       </figcaption>
     </figure>
@@ -40,16 +49,16 @@
 <section id="value" class="section surface">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">{{ "value.label" | translate }}</p>
-      <h2>{{ "value.title" | translate }}</h2>
-      <p>{{ "value.description" | translate }}</p>
+      <p class="eyebrow">{{ 'value.label' | translate }}</p>
+      <h2>{{ 'value.title' | translate }}</h2>
+      <p>{{ 'value.description' | translate }}</p>
     </div>
     <div class="cards three">
       @for (icon of values; track icon; let i = $index) {
         <article class="card">
           <span class="icon-tile"><at-icon [name]="icon" /></span>
-          <h3>{{ "value.items." + i + ".title" | translate }}</h3>
-          <p>{{ "value.items." + i + ".text" | translate }}</p>
+          <h3>{{ 'value.items.' + i + '.title' | translate }}</h3>
+          <p>{{ 'value.items.' + i + '.text' | translate }}</p>
         </article>
       }
     </div>
@@ -58,25 +67,23 @@
 <section id="benefits" class="section">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">{{ "benefits.label" | translate }}</p>
-      <h2>{{ "benefits.title" | translate }}</h2>
-      <p>{{ "benefits.description" | translate }}</p>
+      <p class="eyebrow">{{ 'benefits.label' | translate }}</p>
+      <h2>{{ 'benefits.title' | translate }}</h2>
+      <p>{{ 'benefits.description' | translate }}</p>
     </div>
     @if (personalized()) {
       <div class="ec10-benefit" aria-live="polite">
-        <h3>{{ "ec10." + segment() + "BenefitTitle" | translate }}</h3>
-        <p>{{ "ec10." + segment() + "Benefit" | translate }}</p>
+        <h3>{{ 'ec10.' + segment() + 'BenefitTitle' | translate }}</h3>
+        <p>{{ 'ec10.' + segment() + 'Benefit' | translate }}</p>
       </div>
     }
     <div class="cards three">
       @for (icon of benefits; track icon; let i = $index) {
         <article class="card">
           <span class="icon-tile"><at-icon [name]="icon" /></span>
-          <h3>{{ "benefits.items." + i + ".title" | translate }}</h3>
-          <p>{{ "benefits.items." + i + ".text" | translate }}</p>
-          <span class="card-note"
-            ><at-icon name="check" />{{ "benefits.items." + i + ".note" | translate }}</span
-          >
+          <h3>{{ 'benefits.items.' + i + '.title' | translate }}</h3>
+          <p>{{ 'benefits.items.' + i + '.text' | translate }}</p>
+          <span class="card-note"><at-icon name="check" />{{ 'benefits.items.' + i + '.note' | translate }}</span>
         </article>
       }
     </div>
@@ -85,16 +92,16 @@
 <section id="product" class="section surface">
   <div class="container product-overview">
     <div>
-      <p class="eyebrow">{{ "product.label" | translate }}</p>
-      <h2>{{ "product.title" | translate }}</h2>
-      <p class="explanation">{{ "product.description" | translate }}</p>
+      <p class="eyebrow">{{ 'product.label' | translate }}</p>
+      <h2>{{ 'product.title' | translate }}</h2>
+      <p class="explanation">{{ 'product.description' | translate }}</p>
       <ol class="steps">
         @for (step of [0, 1, 2]; track step) {
           <li>
             <span>{{ step + 1 }}</span>
             <div>
-              <h3>{{ "product.steps." + step + ".title" | translate }}</h3>
-              <p>{{ "product.steps." + step + ".text" | translate }}</p>
+              <h3>{{ 'product.steps.' + step + '.title' | translate }}</h3>
+              <p>{{ 'product.steps.' + step + '.text' | translate }}</p>
             </div>
           </li>
         }
@@ -102,25 +109,24 @@
     </div>
   </div>
 </section>
-<section at-landing-plans id="plans" class="section" [contactHref]="fragmentBase() + (personalized() ? '#demo' : '#contact')"></section>
+<section
+  at-landing-plans
+  id="plans"
+  class="section"
+  [contactHref]="fragmentBase() + (personalized() ? '#demo' : '#contact')"
+></section>
 <ng-content select="[ec10-form-slot]"></ng-content>
 <section id="team" class="section surface">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">{{ "team.label" | translate }}</p>
-      <h2>{{ "team.title" | translate }}</h2>
-      <p>{{ "team.description" | translate }}</p>
+      <p class="eyebrow">{{ 'team.label' | translate }}</p>
+      <h2>{{ 'team.title' | translate }}</h2>
+      <p>{{ 'team.description' | translate }}</p>
     </div>
     <div class="team-row">
       @for (member of team; track member.name) {
         <figure>
-          <img
-            [src]="'assets/img/team/' + member.photo"
-            [alt]="member.name"
-            width="112"
-            height="112"
-            loading="lazy"
-          />
+          <img [src]="'assets/img/team/' + member.photo" [alt]="member.name" width="112" height="112" loading="lazy" />
           <figcaption>{{ member.name }}</figcaption>
         </figure>
       }
@@ -128,12 +134,12 @@
     <div class="purpose-grid">
       <div class="purpose">
         <article>
-          <h3>{{ "team.missionTitle" | translate }}</h3>
-          <p class="explanation">{{ "team.mission" | translate }}</p>
+          <h3>{{ 'team.missionTitle' | translate }}</h3>
+          <p class="explanation">{{ 'team.mission' | translate }}</p>
         </article>
         <article>
-          <h3>{{ "team.visionTitle" | translate }}</h3>
-          <p class="explanation">{{ "team.vision" | translate }}</p>
+          <h3>{{ 'team.visionTitle' | translate }}</h3>
+          <p class="explanation">{{ 'team.vision' | translate }}</p>
         </article>
       </div>
     </div>
@@ -142,15 +148,12 @@
 <section id="trust" class="section">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">{{ "trust.label" | translate }}</p>
-      <h2>{{ "trust.title" | translate }}</h2>
-      <p>{{ "trust.description" | translate }}</p>
+      <p class="eyebrow">{{ 'trust.label' | translate }}</p>
+      <h2>{{ 'trust.title' | translate }}</h2>
+      <p>{{ 'trust.description' | translate }}</p>
     </div>
     <div class="trust-logos">
-      @for (
-        company of ["Horizonte Obra", "Cimiento Norte", "Trazo Urbano", "Nova Edifica"];
-        track company
-      ) {
+      @for (company of ['Horizonte Obra', 'Cimiento Norte', 'Trazo Urbano', 'Nova Edifica']; track company) {
         <div class="company-example">
           <at-icon name="building" /><span>{{ company }}</span>
         </div>
@@ -161,14 +164,14 @@
 <section id="faq" class="section surface">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">{{ "faq.label" | translate }}</p>
-      <h2>{{ "faq.title" | translate }}</h2>
+      <p class="eyebrow">{{ 'faq.label' | translate }}</p>
+      <h2>{{ 'faq.title' | translate }}</h2>
     </div>
     <div class="faq-list">
       @for (item of [0, 1, 2, 3, 4]; track item) {
         <details>
-          <summary>{{ "faq.items." + item + ".question" | translate }}</summary>
-          <p>{{ "faq.items." + item + ".answer" | translate }}</p>
+          <summary>{{ 'faq.items.' + item + '.question' | translate }}</summary>
+          <p>{{ 'faq.items.' + item + '.answer' | translate }}</p>
         </details>
       }
     </div>
@@ -176,15 +179,17 @@
 </section>
 <section class="final-cta">
   <div class="container">
-    <p class="eyebrow">{{ "cta.label" | translate }}</p>
+    <p class="eyebrow">{{ 'cta.label' | translate }}</p>
     @if (personalized()) {
-      <h2>{{ "ec10.ctaTitle" | translate }}</h2>
-      <p>{{ "ec10.ctaText" | translate }}</p>
-      <a class="button" [href]="fragmentBase() + '#demo'">{{ "ec10.requestDemo" | translate }} <at-icon name="arrow" /></a>
+      <h2>{{ 'ec10.ctaTitle' | translate }}</h2>
+      <p>{{ 'ec10.ctaText' | translate }}</p>
+      <a class="button" [href]="fragmentBase() + '#demo'"
+        >{{ 'ec10.requestDemo' | translate }} <at-icon name="arrow"
+      /></a>
     } @else {
-      <h2>{{ "cta.title" | translate }}</h2>
-      <p>{{ "cta.description" | translate }}</p>
-      <a class="button" [href]="fragmentBase() + '#plans'">{{ "hero.demo" | translate }} <at-icon name="arrow" /></a>
+      <h2>{{ 'cta.title' | translate }}</h2>
+      <p>{{ 'cta.description' | translate }}</p>
+      <a class="button" [href]="fragmentBase() + '#plans'">{{ 'hero.demo' | translate }} <at-icon name="arrow" /></a>
     }
   </div>
 </section>

@@ -26,7 +26,10 @@ export class AppComponent implements OnDestroy {
   readonly navigation = ['value', 'benefits', 'product', 'plans', 'team'];
   get onEc10(): boolean {
     return this.router.isActive(EC10_PATH, {
-      paths: 'exact', queryParams: 'ignored', fragment: 'ignored', matrixParams: 'ignored',
+      paths: 'exact',
+      queryParams: 'ignored',
+      fragment: 'ignored',
+      matrixParams: 'ignored',
     });
   }
 

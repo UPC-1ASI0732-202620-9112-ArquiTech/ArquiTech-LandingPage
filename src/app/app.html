@@ -1,4 +1,4 @@
-<a class="skip-link" href="#main">{{ "common.skip" | translate }}</a>
+<a class="skip-link" href="#main">{{ 'common.skip' | translate }}</a>
 <header class="site-header" [class.scrolled]="scrolled">
   <div class="shell nav-inner">
     <a class="brand" routerLink="/" fragment="home" (click)="closeMenu()" aria-label="ArquiTech"
@@ -12,22 +12,18 @@
           [routerLink]="onEc10 ? ec10Path : '/'"
           [queryParamsHandling]="onEc10 ? 'preserve' : 'replace'"
           [fragment]="section"
-          (click)="closeMenu()">{{
-          "nav." + section | translate
-        }}</a>
+          (click)="closeMenu()"
+          >{{ 'nav.' + section | translate }}</a
+        >
       }
       <!-- Finding 15: the same explicit action is available in the mobile menu. -->
-      <a class="nav-signin" [href]="product.app" (click)="closeMenu()">{{ "nav.signIn" | translate }}</a>
+      <a class="nav-signin" [href]="product.app" (click)="closeMenu()">{{ 'nav.signIn' | translate }}</a>
     </nav>
     <div class="header-actions">
-      <button
-        class="language-toggle"
-        (click)="language.toggle()"
-        [attr.aria-label]="'common.language' | translate"
-      >
+      <button class="language-toggle" (click)="language.toggle()" [attr.aria-label]="'common.language' | translate">
         <at-icon name="globe" /><span>{{ language.current().toUpperCase() }}</span>
       </button>
-      <a class="button nav-cta" [href]="product.app">{{ "nav.signIn" | translate }} <at-icon name="arrow" /></a>
+      <a class="button nav-cta" [href]="product.app">{{ 'nav.signIn' | translate }} <at-icon name="arrow" /></a>
       <button
         id="menu-toggle"
         class="menu-toggle"
@@ -49,10 +45,10 @@
         <a class="brand" routerLink="/" fragment="home"
           ><img src="assets/img/logo.jpg" alt="" width="42" height="42" /><span>ArquiTech</span></a
         >
-        <p>{{ "footer.description" | translate }}</p>
+        <p>{{ 'footer.description' | translate }}</p>
       </div>
       <div id="contact" class="footer-contact">
-        <h3>{{ "footer.contact" | translate }}</h3>
+        <h3>{{ 'footer.contact' | translate }}</h3>
         <address>
           <a href="mailto:contacto@arquitech.com">contacto&#64;arquitech.com</a>
           <span>Lima, Perú</span>
@@ -61,13 +57,12 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>{{ "footer.tagline" | translate }}</span
+      <span>{{ 'footer.tagline' | translate }}</span
       ><span class="copyright">© 2026 ArquiTech</span>
       <div class="legal-links">
-        <a routerLink="/privacy">{{ "legal.privacy.title" | translate }}</a
-        ><a routerLink="/terms">{{ "legal.terms.title" | translate }}</a>
+        <a routerLink="/privacy">{{ 'legal.privacy.title' | translate }}</a
+        ><a routerLink="/terms">{{ 'legal.terms.title' | translate }}</a>
       </div>
     </div>
   </div>
 </footer>
-
