@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
-      - run: npx --yes prettier@3.9.9 --write "src/**/*.{ts,html,css}" "public/i18n/*.json"
+      - run: npx --yes prettier@3.9.9 --write "src/**/*.{ts,html,css}" "src/**/i18n/*.json"
       - name: Export formatted sources
         run: |
           python3 - <<'PY'
