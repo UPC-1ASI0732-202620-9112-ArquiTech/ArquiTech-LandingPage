@@ -7,7 +7,13 @@ import { LanguageService } from './language';
 
 type Variant = 'A' | 'B';
 type Segment = 'supervisor' | 'contractor';
-interface FunnelEvent { type: string; variant: Variant; visitorId: string; at: string; segment: Segment | null; }
+interface FunnelEvent {
+  type: string;
+  variant: Variant;
+  visitorId: string;
+  at: string;
+  segment: Segment | null;
+}
 
 const VISITOR_KEY = 'arquitech-ec10-visitor-id';
 const VARIANT_KEY = 'arquitech-ec10-assignment';
@@ -47,8 +53,11 @@ export class Ec10LandingComponent {
     // Finding 2: the experiment opens in Spanish, its audience's language, unless the visitor chose one.
     inject(LanguageService).useIfNotChosen('es');
     const storedId = localStorage.getItem(VISITOR_KEY);
-    this.visitorId = storedId || (typeof crypto !== 'undefined' && 'randomUUID' in crypto
-      ? crypto.randomUUID() : 'ec10-' + Date.now().toString(36) + Math.random().toString(36).slice(2));
+    this.visitorId =
+      storedId ||
+      (typeof crypto !== 'undefined' && 'randomUUID' in crypto
+        ? crypto.randomUUID()
+        : 'ec10-' + Date.now().toString(36) + Math.random().toString(36).slice(2));
     if (!storedId) localStorage.setItem(VISITOR_KEY, this.visitorId);
 
     // Explicit test overrides are confined to this experimental route.
@@ -74,13 +83,16 @@ export class Ec10LandingComponent {
   private track(type: string): void {
     // Store interaction events locally; these do not confirm received requests.
     const entry: FunnelEvent = {
-      type, variant: this.variant, visitorId: this.visitorId,
-      at: new Date().toISOString(), segment: this.variant === 'B' ? this.segment() : null,
+      type,
+      variant: this.variant,
+      visitorId: this.visitorId,
+      at: new Date().toISOString(),
+      segment: this.variant === 'B' ? this.segment() : null,
     };
     const previous = (() => {
       try {
         const parsed: unknown = JSON.parse(sessionStorage.getItem(EVENTS_KEY) ?? '[]');
-        return Array.isArray(parsed) ? parsed as FunnelEvent[] : [];
+        return Array.isArray(parsed) ? (parsed as FunnelEvent[]) : [];
       } catch {
         return [] as FunnelEvent[];
       }
@@ -104,10 +116,20 @@ export class Ec10LandingComponent {
     const role = t('ec10.mail.' + this.segment());
     const subject = encodeURIComponent(t('ec10.mail.subject', { segment: role }));
     const message = encodeURIComponent(
-      t('ec10.mail.intro') + '\n' +
-      t('ec10.mail.segment') + ': ' + role + '\n' +
-      t('ec10.mail.company') + ': ' + company + '\n' +
-      t('ec10.mail.email') + ': ' + email + '\n',
+      t('ec10.mail.intro') +
+        '\n' +
+        t('ec10.mail.segment') +
+        ': ' +
+        role +
+        '\n' +
+        t('ec10.mail.company') +
+        ': ' +
+        company +
+        '\n' +
+        t('ec10.mail.email') +
+        ': ' +
+        email +
+        '\n',
     );
     // Opening mailto does not prove message delivery or a qualified commercial lead.
     const href = 'mailto:' + DEMO_DESTINATION + '?subject=' + subject + '&body=' + message;

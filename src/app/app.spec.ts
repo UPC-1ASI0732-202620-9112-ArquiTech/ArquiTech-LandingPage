@@ -49,7 +49,9 @@ describe('ArquiTech landing shell', () => {
     const el: HTMLElement = fixture.nativeElement;
     expect(el.querySelector('.nav-cta')?.textContent).toContain('nav.signIn');
     expect(el.querySelector('.nav-signin')?.textContent).toContain('nav.signIn');
-    expect(el.querySelector('footer a[href*="facebook.com"], footer a[href*="instagram.com"], footer a[href*="x.com"]')).toBeNull();
+    expect(
+      el.querySelector('footer a[href*="facebook.com"], footer a[href*="instagram.com"], footer a[href*="x.com"]'),
+    ).toBeNull();
   });
 
   it('serves the experiment on a Spanish route and keeps the old link (finding 2)', async () => {

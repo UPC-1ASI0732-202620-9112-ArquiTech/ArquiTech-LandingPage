@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 const PATHS: Record<string, string> = {
-  facebook:
-    'M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.4A25 25 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9h4Z',
+  facebook: 'M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.4A25 25 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9h4Z',
   instagram:
     'M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm9 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm1.5-5h.01',
   twitter:
@@ -21,8 +20,7 @@ const PATHS: Record<string, string> = {
   screen: 'M3 4h18v13H3V4Zm5 17h8m-4-4v4',
   phone: 'M7 2h10v20H7V2Zm4 17h2',
   code: 'm8 6-6 6 6 6m8-12 6 6-6 6m-3-16-2 20',
-  database:
-    'M20 6c0 2-4 3-8 3s-8-1-8-3 4-3 8-3 8 1 8 3Zm0 0v12c0 2-4 3-8 3s-8-1-8-3V6m0 6c0 2 4 3 8 3s8-1 8-3',
+  database: 'M20 6c0 2-4 3-8 3s-8-1-8-3 4-3 8-3 8 1 8 3Zm0 0v12c0 2-4 3-8 3s-8-1-8-3V6m0 6c0 2 4 3 8 3s8-1 8-3',
   play: 'm9 6 9 6-9 6V6Z',
   link: 'M14 3h7v7m0-7L10 14M10 3H3v18h18v-7',
 };
@@ -31,9 +29,7 @@ const PATHS: Record<string, string> = {
   standalone: true,
   template:
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path [attr.d]="path" [attr.fill]="filled ? \'currentColor\' : \'none\'" [attr.stroke]="filled ? \'none\' : \'currentColor\'" /></svg>',
-  styles: [
-    ':host{display:inline-flex;width:24px;height:24px;flex:none}svg{width:100%;height:100%}',
-  ],
+  styles: [':host{display:inline-flex;width:24px;height:24px;flex:none}svg{width:100%;height:100%}'],
 })
 export class IconComponent {
   @Input() name = 'check';
